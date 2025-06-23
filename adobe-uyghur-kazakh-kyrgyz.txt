@@ -1,0 +1,23 @@
+Unicode(s)	Character(s)	Glyph name	Character name(s)	Notes
+06D5	&#x06D5;	uni06D5	ARABIC LETTER AE	also in Arabic Extended module
+0675	&#x0675;	uni0675	ARABIC LETTER HIGH HAMZA ALEF	
+067E	&#x067E;	uni067E	ARABIC LETTER PEH	also in Urdu + Farsi + Punjabi module
+0686	&#x0686;	uni0686	ARABIC LETTER TCHEH	also in Urdu + Farsi + Punjabi module
+0698	&#x0698;	uni0698	ARABIC LETTER JEH	also in Urdu + Farsi + Punjabi module
+06CB	&#x06CB;	uni06CB	ARABIC LETTER VE	
+06BE	&#x06BE;	uni06BE	ARABIC LETTER HEH DOACHASHMEE	also in Urdu + Farsi + Punjabi module
+06C5	&#x06C5;	uni06C5	ARABIC LETTER KIRGHIZ OE	
+06C6	&#x06C6;	uni06C6	ARABIC LETTER OE	also in Arabic Extended module
+06C7	&#x06C7;	uni06C7	ARABIC LETTER U	
+06C8	&#x06C8;	uni06C8	ARABIC LETTER YU	
+06C9	&#x06C9;	uni06C9	ARABIC LETTER KIRGHIZ YU	
+0676	&#x0676;	uni0676	ARABIC LETTER HIGH HAMZA WAW	
+0677	&#x0677;	uni0677	ARABIC LETTER U WITH HAMZA ABOVE	
+06D0	&#x06D0;	uni06D0	ARABIC LETTER E	also in Arabic Extended module
+0678	&#x0678;	uni0678	ARABIC LETTER HIGH HAMZA YEH	
+0674	&#x0674;	uni0674	ARABIC LETTER HIGH HAMZA	
+0641	&#x0641;	uni0641.ukk	ARABIC LETTER FEH	UKK scripts form resembles Qaf
+065A	&#x065A;	uni065A	ARABIC VOWEL SIGN SMALL V ABOVE	
+065B	&#x065B;	uni065B	ARABIC VOWEL SIGN INVERTED SMALL V ABOVE	
+064F	&#x064F;	uni064F.ukk	ARABIC DAMMA	UKK scripts form resembles comma
+00A5	&#x00A5;	yen.zh	YEN SIGN	Chinese yuan has single horizontal stroke
