@@ -12,20 +12,32 @@
     <header class="fixed-header">
       <h1>Adobe Arabic Character Sets</h1>
       <nav>
-        <a class="nav-link" href="#arabic-core">Adobe Arabic Core</a> |
-        <a class="nav-link" href="#adobe-urdu-farsi-punjabi-module">Adobe Urdu + Farsi + Punjabi Module</a> |
-        <a class="nav-link" href="#uyghur-kazakh-kyrgyz-module">Adobe Uyghur + Kazakh + Kyrgyz Module</a> |
-        <a class="nav-link" href="#arabic-extended-module">Adobe Arabic Extended Module</a>
+        <div class="nav-row">
+          <strong>Arabic Script:</strong>
+          <a class="nav-link" href="#arabic-core">Core</a> |
+          <a class="nav-link" href="#adobe-urdu-farsi-punjabi-module">Urdu + Farsi + Punjabi</a> |
+          <a class="nav-link" href="#kashmiri-saraiki-balti">Kashmiri + Saraiki + Balti</a> |
+          <a class="nav-link" href="#uyghur-kazakh-kyrgyz-module">Uyghur + Kazakh + Kyrgyz</a> |
+          <a class="nav-link" href="#arabic-extended-module">Extended</a>
+        </div>
+        <div class="nav-row">
+          <strong>Romanization:</strong>
+          <a class="nav-link" href="#adobe-arabic-roman">Core</a> |
+          <a class="nav-link" href="#adobe-urdu-farsi-punjabi-roman">Urdu + Farsi + Punjabi</a> |
+          <a class="nav-link" href="#kashmiri-saraiki-balti-romanization">Kashmiri + Saraiki + Balti</a> |
+          <a class="nav-link" href="#adobe-uyghur-kazakh-kyrgyz-roman">Uyghur + Kazakh + Kyrgyz</a> |
+          <a class="nav-link" href="#adobe-arabic-extended-roman">Extended</a>
+        </div>
       </nav>
     </header>
     <main id="main">
       <section class="charset-section" id="arabic-core">
         <h2>Adobe Arabic Core</h2>
         <div class="stats">
-          <p>Total character strings supported <strong>118</strong> : 97 single characters (<em>95 Unicode characters + 2 alternate glyphs</em>) + 21 character combinations</p>
+          <p>Total character strings supported <strong>122</strong> : 101 single characters (<em>99 Unicode characters + 2 alternate glyphs</em>) + 21 character combinations</p>
         </div>
         <div class="table-download">
-          <p><a href="adobe-arabic-core-characters.txt">Download Adobe Arabic Core table (characters only)</a></p>
+          <p><a href="adobe-arabic-1.txt">Download Adobe Arabic Core table (characters only)</a></p>
         </div>
         <table class="confluenceTable" id="adobe-arabic-core-characters">
           <thead>
@@ -228,6 +240,13 @@
               <td class="confluenceTd"></td>
             </tr>
             <tr>
+              <td class="confluenceTd">06A2</td>
+              <td class="confluenceTd">&#x06A2;</td>
+              <td class="confluenceTd">uni06A2</td>
+              <td class="confluenceTd">ARABIC LETTER FEH WITH DOT MOVED BELOW</td>
+              <td class="confluenceTd">Maghreb</td>
+            </tr>
+            <tr>
               <td class="confluenceTd">06A4</td>
               <td class="confluenceTd">&#x06A4;</td>
               <td class="confluenceTd">uni06A4</td>
@@ -240,6 +259,20 @@
               <td class="confluenceTd">uni06A5</td>
               <td class="confluenceTd">ARABIC LETTER FEH WITH THREE DOTS BELOW</td>
               <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">06A7</td>
+              <td class="confluenceTd">&#x06A7;</td>
+              <td class="confluenceTd">uni06A7</td>
+              <td class="confluenceTd">ARABIC LETTER QAF WITH DOT ABOVE</td>
+              <td class="confluenceTd">Maghreb</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">06A8</td>
+              <td class="confluenceTd">&#x06A8;</td>
+              <td class="confluenceTd">uni06A8</td>
+              <td class="confluenceTd">ARABIC LETTER QAF WITH THREE DOTS ABOVE</td>
+              <td class="confluenceTd">Tunisia</td>
             </tr>
             <tr>
               <td class="confluenceTd">0642</td>
@@ -281,14 +314,14 @@
               <td class="confluenceTd">&#x06AD;</td>
               <td class="confluenceTd">uni06AD</td>
               <td class="confluenceTd">ARABIC LETTER NG</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Morocco</td>
             </tr>
             <tr>
               <td class="confluenceTd">06AF</td>
               <td class="confluenceTd">&#x06AF;</td>
               <td class="confluenceTd">uni06AF</td>
               <td class="confluenceTd">ARABIC LETTER GAF</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Iraq</td>
             </tr>
             <tr>
               <td class="confluenceTd">0644</td>
@@ -655,6 +688,13 @@
               <td class="confluenceTd">short alternate</td>
             </tr>
             <tr>
+              <td class="confluenceTd">25CC</td>
+              <td class="confluenceTd">&#x25CC;</td>
+              <td class="confluenceTd">uni25CC</td>
+              <td class="confluenceTd">DOTTED CIRCLE</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
               <td class="confluenceTd">200C</td>
               <td class="confluenceTd">&#x200C;</td>
               <td class="confluenceTd">uni200C</td>
@@ -720,6 +760,12 @@
           </tbody>
         </table>
         <h3 class="in-this-section">Character Combinations</h3>
+        <div class="stats">
+          <p>Total character combinations supported <strong>21</strong></p>
+        </div>
+        <div class="table-download">
+          <p><a href="adobe-arabic-1-combined.txt">Download Adobe Arabic Core combinations table</a></p>
+        </div>
         <table class="confluenceTable" id="adobe-arabic-core-combinations">
           <thead>
             <tr>
@@ -862,10 +908,10 @@
       <section class="charset-section" id="adobe-urdu-farsi-punjabi-module">
         <h2>Adobe Urdu + Farsi + Punjabi Module</h2>
         <div class="stats">
-          <p>Total character strings supported <strong>33</strong> : 31 unique characters + 2 alternate glyphs</p>
+          <p>Total character strings supported <strong>37</strong> : 35 unique characters + 2 alternate glyphs</p>
         </div>
         <div class="table-download">
-          <p><a href="adobe-urdu-farsi-punjabi.txt">Download Adobe Urdu + Farsi + Punjabi Module table</a></p>
+          <p><a href="adobe-arabic-2.txt">Download Adobe Urdu + Farsi + Punjabi Module table</a></p>
         </div>
         <table class="confluenceTable" id="adobe-urdu-farsi-punjabi">
           <thead>
@@ -883,14 +929,21 @@
               <td class="confluenceTd">&#x067E;</td>
               <td class="confluenceTd">uni067E</td>
               <td class="confluenceTd">ARABIC LETTER PEH</td>
-              <td class="confluenceTd">also in Uyghur + Kazakh + Kyrgyz module</td>
+              <td class="confluenceTd">also in AAR3</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">067F</td>
+              <td class="confluenceTd">&#x067F;</td>
+              <td class="confluenceTd">uni067F</td>
+              <td class="confluenceTd">ARABIC LETTER TEHEH</td>
+              <td class="confluenceTd">Urdu</td>
             </tr>
             <tr>
               <td class="confluenceTd">0679</td>
               <td class="confluenceTd">&#x0679;</td>
               <td class="confluenceTd">uni0679</td>
               <td class="confluenceTd">ARABIC LETTER TTEH</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Punjabi, Urdu</td>
             </tr>
             <tr>
               <td class="confluenceTd">06C3</td>
@@ -904,28 +957,28 @@
               <td class="confluenceTd">&#x0686;</td>
               <td class="confluenceTd">uni0686</td>
               <td class="confluenceTd">ARABIC LETTER TCHEH</td>
-              <td class="confluenceTd">also in Uyghur + Kazakh + Kyrgyz module</td>
+              <td class="confluenceTd">also in AAR3</td>
             </tr>
             <tr>
               <td class="confluenceTd">0688</td>
               <td class="confluenceTd">&#x0688;</td>
               <td class="confluenceTd">uni0688</td>
               <td class="confluenceTd">ARABIC LETTER DDAL</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Punjabi, Urdu</td>
             </tr>
             <tr>
               <td class="confluenceTd">0691</td>
               <td class="confluenceTd">&#x0691;</td>
               <td class="confluenceTd">uni0691</td>
               <td class="confluenceTd">ARABIC LETTER RREH</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Punjabi, Urdu</td>
             </tr>
             <tr>
               <td class="confluenceTd">0698</td>
               <td class="confluenceTd">&#x0698;</td>
               <td class="confluenceTd">uni0698</td>
               <td class="confluenceTd">ARABIC LETTER JEH</td>
-              <td class="confluenceTd">also in Uyghur + Kazakh + Kyrgyz module</td>
+              <td class="confluenceTd">also in AAR3</td>
             </tr>
             <tr>
               <td class="confluenceTd">08C7</td>
@@ -935,10 +988,24 @@
               <td class="confluenceTd"></td>
             </tr>
             <tr>
+              <td class="confluenceTd">088F</td>
+              <td class="confluenceTd">&#x088F;</td>
+              <td class="confluenceTd">uni088F</td>
+              <td class="confluenceTd">ARABIC LETTER NOON WITH RING ABOVE</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
               <td class="confluenceTd">06BA</td>
               <td class="confluenceTd">&#x06BA;</td>
               <td class="confluenceTd">uni06BA</td>
               <td class="confluenceTd">ARABIC LETTER NOON GHUNNA</td>
+              <td class="confluenceTd">Punjabi, Urdu</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">06BB</td>
+              <td class="confluenceTd">&#x06BB;</td>
+              <td class="confluenceTd">uni06BB</td>
+              <td class="confluenceTd">ARABIC LETTER RNOON</td>
               <td class="confluenceTd"></td>
             </tr>
             <tr>
@@ -946,28 +1013,28 @@
               <td class="confluenceTd">&#x0768;</td>
               <td class="confluenceTd">uni0768</td>
               <td class="confluenceTd">ARABIC LETTER NOON WITH SMALL TAH</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Punjabi, Urdu</td>
             </tr>
             <tr>
               <td class="confluenceTd">06BE</td>
               <td class="confluenceTd">&#x06BE;</td>
               <td class="confluenceTd">uni06BE</td>
               <td class="confluenceTd">ARABIC LETTER HEH DOACHASHMEE</td>
-              <td class="confluenceTd">also in Uyghur + Kazakh + Kyrgyz module</td>
+              <td class="confluenceTd">also in AAR3</td>
             </tr>
             <tr>
               <td class="confluenceTd">06C1</td>
               <td class="confluenceTd">&#x06C1;</td>
               <td class="confluenceTd">uni06C1</td>
               <td class="confluenceTd">ARABIC LETTER HEH GOAL</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Punjabi, Urdu</td>
             </tr>
             <tr>
               <td class="confluenceTd">06C2</td>
               <td class="confluenceTd">&#x06C2;</td>
               <td class="confluenceTd">uni06C2</td>
               <td class="confluenceTd">ARABIC LETTER HEH GOAL WITH HAMZA ABOVE</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Punjabi, Urdu</td>
             </tr>
             <tr>
               <td class="confluenceTd">06C0</td>
@@ -981,21 +1048,21 @@
               <td class="confluenceTd">&#x06CC;</td>
               <td class="confluenceTd">uni06CC</td>
               <td class="confluenceTd">ARABIC LETTER FARSI YEH</td>
-              <td class="confluenceTd">also in Uyghur + Kazakh + Kyrgyz module</td>
+              <td class="confluenceTd"></td>
             </tr>
             <tr>
               <td class="confluenceTd">06D2</td>
               <td class="confluenceTd">&#x06D2;</td>
               <td class="confluenceTd">uni06D2</td>
               <td class="confluenceTd">ARABIC LETTER YEH BARREE</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Punjabi, Urdu</td>
             </tr>
             <tr>
               <td class="confluenceTd">06D3</td>
               <td class="confluenceTd">&#x06D3;</td>
               <td class="confluenceTd">uni06D3</td>
               <td class="confluenceTd">ARABIC LETTER YEH BARREE WITH HAMZA ABOVE</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Punjabi, Urdu</td>
             </tr>
             <tr>
               <td class="confluenceTd">06F0</td>
@@ -1082,6 +1149,13 @@
               <td class="confluenceTd">Urdu localized form</td>
             </tr>
             <tr>
+              <td class="confluenceTd">0615</td>
+              <td class="confluenceTd">&#x0615;</td>
+              <td class="confluenceTd">uni0615</td>
+              <td class="confluenceTd">ARABIC SMALL HIGH TAH</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
               <td class="confluenceTd">0657</td>
               <td class="confluenceTd">&#x25CC;&#x0657;</td>
               <td class="confluenceTd">uni0657</td>
@@ -1112,13 +1186,140 @@
           </tbody>
         </table>
       </section>
+      <section class="charset-section" id="kashmiri-saraiki-balti">
+        <h2>Adobe Kashmiri + Saraiki + Balti Module</h2>
+        <div class="stats">
+          <p>Total character strings supported <strong>15</strong> : 15 unique characters</p>
+        </div>
+        <div class="table-download">
+          <p><a href="adobe-arabic-4.txt">Download Adobe Kashmiri + Saraiki + Balti Module table</a></p>
+        </div>
+        <table class="confluenceTable" id="adobe-nastaliq">
+          <thead>
+            <tr>
+              <th class="confluenceTh" onclick="sortTable(0, 'adobe-nastaliq')">Unicode</th>
+              <th class="confluenceTh" onclick="sortTable(1, 'adobe-nastaliq')">Character</th>
+              <th class="confluenceTh" onclick="sortTable(2, 'adobe-nastaliq')">Glyph name</th>
+              <th class="confluenceTh" onclick="sortTable(3, 'adobe-nastaliq')">Character name</th>
+              <th class="confluenceTh" onclick="sortTable(4, 'adobe-nastaliq')">Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="confluenceTd">0620</td>
+              <td class="confluenceTd">&#x0620;</td>
+              <td class="confluenceTd">uni0620</td>
+              <td class="confluenceTd">ARABIC LETTER KASHMIRI YEH</td>
+              <td class="confluenceTd">Kashmiri</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">065F</td>
+              <td class="confluenceTd">&#x065F;</td>
+              <td class="confluenceTd">uni065F</td>
+              <td class="confluenceTd">ARABIC WAVY HAMZA BELOW</td>
+              <td class="confluenceTd">Kashmiri</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0672</td>
+              <td class="confluenceTd">&#x0672;</td>
+              <td class="confluenceTd">uni0672</td>
+              <td class="confluenceTd">ARABIC LETTER ALEF WITH WAVY HAMZA ABOVE</td>
+              <td class="confluenceTd">Kashmiri</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">067B</td>
+              <td class="confluenceTd">&#x067B;</td>
+              <td class="confluenceTd">uni067B</td>
+              <td class="confluenceTd">ARABIC LETTER BEEH</td>
+              <td class="confluenceTd">Saraiki; also in AAR5</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0683</td>
+              <td class="confluenceTd">&#x0683;</td>
+              <td class="confluenceTd">uni0683</td>
+              <td class="confluenceTd">ARABIC LETTER NYEH</td>
+              <td class="confluenceTd">Balti; also in AAR5</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0684</td>
+              <td class="confluenceTd">&#x0684;</td>
+              <td class="confluenceTd">uni0684</td>
+              <td class="confluenceTd">ARABIC LETTER DYEH</td>
+              <td class="confluenceTd">Saraiki; also in AAR5</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0687</td>
+              <td class="confluenceTd">&#x0687;</td>
+              <td class="confluenceTd">uni0687</td>
+              <td class="confluenceTd">ARABIC LETTER TCHEHEH</td>
+              <td class="confluenceTd">Balti; also in AAR5</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0697</td>
+              <td class="confluenceTd">&#x0697;</td>
+              <td class="confluenceTd">uni0697</td>
+              <td class="confluenceTd">ARABIC LETTER REH WITH TWO DOTS ABOVE</td>
+              <td class="confluenceTd">Balti</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">06B3</td>
+              <td class="confluenceTd">&#x06B3;</td>
+              <td class="confluenceTd">uni06B3</td>
+              <td class="confluenceTd">ARABIC LETTER GUEH</td>
+              <td class="confluenceTd">Saraiki; also in AAR5</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">06C4</td>
+              <td class="confluenceTd">&#x06C4;</td>
+              <td class="confluenceTd">uni06C4</td>
+              <td class="confluenceTd">ARABIC LETTER WAW WITH RING</td>
+              <td class="confluenceTd">Kashmiri</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">06C6</td>
+              <td class="confluenceTd">&#x06C6;</td>
+              <td class="confluenceTd">uni06C6</td>
+              <td class="confluenceTd">ARABIC LETTER OE</td>
+              <td class="confluenceTd">Kashmiri; also in AAR3 and AAR5</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0759</td>
+              <td class="confluenceTd">&#x0759;</td>
+              <td class="confluenceTd">uni0759</td>
+              <td class="confluenceTd">ARABIC LETTER DAL WITH TWO DOTS VERTICALLY BELOW AND SMALL TAH</td>
+              <td class="confluenceTd">Saraiki</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">075C</td>
+              <td class="confluenceTd">&#x075C;</td>
+              <td class="confluenceTd">uni075C</td>
+              <td class="confluenceTd">ARABIC LETTER SEEN WITH FOUR DOTS ABOVE</td>
+              <td class="confluenceTd">Balti</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0769</td>
+              <td class="confluenceTd">&#x0769;</td>
+              <td class="confluenceTd">uni0769</td>
+              <td class="confluenceTd">ARABIC LETTER NOON WITH SMALL V</td>
+              <td class="confluenceTd">Balti</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">08C8</td>
+              <td class="confluenceTd">&#x08C8;</td>
+              <td class="confluenceTd">uni08C8</td>
+              <td class="confluenceTd">ARABIC LETTER GRAF</td>
+              <td class="confluenceTd">Balti</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
       <section class="charset-section" id="uyghur-kazakh-kyrgyz-module">
         <h2>Adobe Uyghur + Kazakh + Kyrgyz Module</h2>
         <div class="stats">
           <p>Total character strings supported <strong>22</strong> : 19 unique characters + 3 alternate glyphs</p>
         </div>
         <div class="table-download">
-          <p><a href="adobe-uyghur-kazakh-kyrgyz.txt">Download Adobe Uyghur + Kazakh + Kyrgyz Module table</a></p>
+          <p><a href="adobe-arabic-3.txt">Download Adobe Uyghur + Kazakh + Kyrgyz Module table</a></p>
         </div>
         <table class="confluenceTable" id="adobe-uyghur-kazakh-kyrgyz">
           <thead>
@@ -1136,35 +1337,35 @@
               <td class="confluenceTd">&#x06D5;</td>
               <td class="confluenceTd">uni06D5</td>
               <td class="confluenceTd">ARABIC LETTER AE</td>
-              <td class="confluenceTd">also in Arabic Extended module</td>
+              <td class="confluenceTd">also in AAR5</td>
             </tr>
             <tr>
               <td class="confluenceTd">0675</td>
               <td class="confluenceTd">&#x0675;</td>
               <td class="confluenceTd">uni0675</td>
               <td class="confluenceTd">ARABIC LETTER HIGH HAMZA ALEF</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Kazakh</td>
             </tr>
             <tr>
               <td class="confluenceTd">067E</td>
               <td class="confluenceTd">&#x067E;</td>
               <td class="confluenceTd">uni067E</td>
               <td class="confluenceTd">ARABIC LETTER PEH</td>
-              <td class="confluenceTd">also in Urdu + Farsi + Punjabi &amp; Arabic Extended modules</td>
+              <td class="confluenceTd">also in AAR2</td>
             </tr>
             <tr>
               <td class="confluenceTd">0686</td>
               <td class="confluenceTd">&#x0686;</td>
               <td class="confluenceTd">uni0686</td>
               <td class="confluenceTd">ARABIC LETTER TCHEH</td>
-              <td class="confluenceTd">also in Urdu + Farsi + Punjabi &amp; Arabic Extended modules</td>
+              <td class="confluenceTd">also in AAR2</td>
             </tr>
             <tr>
               <td class="confluenceTd">0698</td>
               <td class="confluenceTd">&#x0698;</td>
               <td class="confluenceTd">uni0698</td>
               <td class="confluenceTd">ARABIC LETTER JEH</td>
-              <td class="confluenceTd">also in Urdu + Farsi + Punjabi &amp; Arabic Extended modules</td>
+              <td class="confluenceTd">also in AAR2</td>
             </tr>
             <tr>
               <td class="confluenceTd">06CB</td>
@@ -1178,77 +1379,77 @@
               <td class="confluenceTd">&#x06BE;</td>
               <td class="confluenceTd">uni06BE</td>
               <td class="confluenceTd">ARABIC LETTER HEH DOACHASHMEE</td>
-              <td class="confluenceTd">also in Urdu + Farsi + Punjabi module</td>
+              <td class="confluenceTd">also in AAR2</td>
             </tr>
             <tr>
               <td class="confluenceTd">06C5</td>
               <td class="confluenceTd">&#x06C5;</td>
               <td class="confluenceTd">uni06C5</td>
               <td class="confluenceTd">ARABIC LETTER KIRGHIZ OE</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Kyrgyz</td>
             </tr>
             <tr>
               <td class="confluenceTd">06C6</td>
               <td class="confluenceTd">&#x06C6;</td>
               <td class="confluenceTd">uni06C6</td>
               <td class="confluenceTd">ARABIC LETTER OE</td>
-              <td class="confluenceTd">also in Arabic Extended module</td>
+              <td class="confluenceTd">also in AAR4 and AAR5</td>
             </tr>
             <tr>
               <td class="confluenceTd">06C7</td>
               <td class="confluenceTd">&#x06C7;</td>
               <td class="confluenceTd">uni06C7</td>
               <td class="confluenceTd">ARABIC LETTER U</td>
-              <td class="confluenceTd">also in Arabic Extended module</td>
+              <td class="confluenceTd"></td>
             </tr>
             <tr>
               <td class="confluenceTd">06C8</td>
               <td class="confluenceTd">&#x06C8;</td>
               <td class="confluenceTd">uni06C8</td>
               <td class="confluenceTd">ARABIC LETTER YU</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Uyghur</td>
             </tr>
             <tr>
               <td class="confluenceTd">06C9</td>
               <td class="confluenceTd">&#x06C9;</td>
               <td class="confluenceTd">uni06C9</td>
               <td class="confluenceTd">ARABIC LETTER KIRGHIZ YU</td>
-              <td class="confluenceTd">also in Arabic Extended module</td>
+              <td class="confluenceTd">Kyrgyz</td>
             </tr>
             <tr>
               <td class="confluenceTd">0676</td>
               <td class="confluenceTd">&#x0676;</td>
               <td class="confluenceTd">uni0676</td>
               <td class="confluenceTd">ARABIC LETTER HIGH HAMZA WAW</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Kazakh</td>
             </tr>
             <tr>
               <td class="confluenceTd">0677</td>
               <td class="confluenceTd">&#x0677;</td>
               <td class="confluenceTd">uni0677</td>
               <td class="confluenceTd">ARABIC LETTER U WITH HAMZA ABOVE</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Kazakh</td>
             </tr>
             <tr>
               <td class="confluenceTd">06D0</td>
               <td class="confluenceTd">&#x06D0;</td>
               <td class="confluenceTd">uni06D0</td>
               <td class="confluenceTd">ARABIC LETTER E</td>
-              <td class="confluenceTd">also in Arabic Extended module</td>
+              <td class="confluenceTd">Uyghur; also in AAR5</td>
             </tr>
             <tr>
               <td class="confluenceTd">0678</td>
               <td class="confluenceTd">&#x0678;</td>
               <td class="confluenceTd">uni0678</td>
               <td class="confluenceTd">ARABIC LETTER HIGH HAMZA YEH</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Kazakh</td>
             </tr>
             <tr>
               <td class="confluenceTd">0674</td>
               <td class="confluenceTd">&#x0674;</td>
               <td class="confluenceTd">uni0674</td>
               <td class="confluenceTd">ARABIC LETTER HIGH HAMZA</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Kazakh, Uyghur</td>
             </tr>
             <tr>
               <td class="confluenceTd">0641</td>
@@ -1262,7 +1463,7 @@
               <td class="confluenceTd">&#x25CC;&#x065A;</td>
               <td class="confluenceTd">uni065A</td>
               <td class="confluenceTd">ARABIC VOWEL SIGN SMALL V ABOVE</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">also in AAR5</td>
             </tr>
             <tr>
               <td class="confluenceTd">065B</td>
@@ -1291,10 +1492,10 @@
       <section class="charset-section" id="arabic-extended-module">
         <h2>Adobe Arabic Extended Module</h2>
         <div class="stats">
-          <p>Total characters supported <strong>50</strong></p>
+          <p>Total characters supported <strong>43</strong></p>
         </div>
         <div class="table-download">
-          <p><a href="adobe-arabic-extended.txt">Download Adobe Arabic Extended Module table</a></p>
+          <p><a href="adobe-arabic-5.txt">Download Adobe Arabic Extended Module table</a></p>
         </div>
         <table class="confluenceTable" id="adobe-arabic-extended">
           <thead>
@@ -1308,312 +1509,270 @@
           </thead>
           <tbody>
             <tr>
-              <td class="confluenceTd">0672</td>
-              <td class="confluenceTd">&#x0672;</td>
-              <td class="confluenceTd">uni0672</td>
-              <td class="confluenceTd">ARABIC LETTER ALEF WITH WAVY HAMZA ABOVE</td>
-              <td class="confluenceTd"></td>
-            </tr>
-            <tr>
               <td class="confluenceTd">06D5</td>
               <td class="confluenceTd">&#x06D5;</td>
               <td class="confluenceTd">uni06D5</td>
               <td class="confluenceTd">ARABIC LETTER AE</td>
-              <td class="confluenceTd">also in Uyghur + Kazakh + Kyrgyz module</td>
+              <td class="confluenceTd">Kurdish; also in AAR3</td>
             </tr>
             <tr>
               <td class="confluenceTd">067B</td>
               <td class="confluenceTd">&#x067B;</td>
               <td class="confluenceTd">uni067B</td>
               <td class="confluenceTd">ARABIC LETTER BEEH</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Sindhi; also in AAR4</td>
             </tr>
             <tr>
               <td class="confluenceTd">0680</td>
               <td class="confluenceTd">&#x0680;</td>
               <td class="confluenceTd">uni0680</td>
               <td class="confluenceTd">ARABIC LETTER BEHEH</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Sindhi</td>
             </tr>
             <tr>
               <td class="confluenceTd">067A</td>
               <td class="confluenceTd">&#x067A;</td>
               <td class="confluenceTd">uni067A</td>
               <td class="confluenceTd">ARABIC LETTER TTEHEH</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Sindhi</td>
             </tr>
             <tr>
               <td class="confluenceTd">0754</td>
               <td class="confluenceTd">&#x0754;</td>
               <td class="confluenceTd">uni0754</td>
               <td class="confluenceTd">ARABIC LETTER BEH WITH TWO DOTS BELOW AND DOT ABOVE</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Balochi</td>
             </tr>
             <tr>
               <td class="confluenceTd">067C</td>
               <td class="confluenceTd">&#x067C;</td>
               <td class="confluenceTd">uni067C</td>
               <td class="confluenceTd">ARABIC LETTER TEH WITH RING</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Pashto</td>
             </tr>
             <tr>
               <td class="confluenceTd">067D</td>
               <td class="confluenceTd">&#x067D;</td>
               <td class="confluenceTd">uni067D</td>
               <td class="confluenceTd">ARABIC LETTER TEH WITH THREE DOTS ABOVE DOWNWARDS</td>
-              <td class="confluenceTd"></td>
-            </tr>
-            <tr>
-              <td class="confluenceTd">067F</td>
-              <td class="confluenceTd">&#x067F;</td>
-              <td class="confluenceTd">uni067F</td>
-              <td class="confluenceTd">ARABIC LETTER TEHEH</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Sindhi</td>
             </tr>
             <tr>
               <td class="confluenceTd">0683</td>
               <td class="confluenceTd">&#x0683;</td>
               <td class="confluenceTd">uni0683</td>
               <td class="confluenceTd">ARABIC LETTER NYEH</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Sindhi; also in AAR4</td>
             </tr>
             <tr>
               <td class="confluenceTd">0684</td>
               <td class="confluenceTd">&#x0684;</td>
               <td class="confluenceTd">uni0684</td>
               <td class="confluenceTd">ARABIC LETTER DYEH</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Sindhi; also in AAR4</td>
             </tr>
             <tr>
               <td class="confluenceTd">0687</td>
               <td class="confluenceTd">&#x0687;</td>
               <td class="confluenceTd">uni0687</td>
               <td class="confluenceTd">ARABIC LETTER TCHEHEH</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Sindhi; also in AAR4</td>
             </tr>
             <tr>
               <td class="confluenceTd">0681</td>
               <td class="confluenceTd">&#x0681;</td>
               <td class="confluenceTd">uni0681</td>
               <td class="confluenceTd">ARABIC LETTER HAH WITH HAMZA ABOVE</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Pashto</td>
             </tr>
             <tr>
               <td class="confluenceTd">0685</td>
               <td class="confluenceTd">&#x0685;</td>
               <td class="confluenceTd">uni0685</td>
               <td class="confluenceTd">ARABIC LETTER HAH WITH THREE DOTS ABOVE</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Pashto</td>
             </tr>
             <tr>
               <td class="confluenceTd">0689</td>
               <td class="confluenceTd">&#x0689;</td>
               <td class="confluenceTd">uni0689</td>
               <td class="confluenceTd">ARABIC LETTER DAL WITH RING</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Pashto</td>
             </tr>
             <tr>
               <td class="confluenceTd">068A</td>
               <td class="confluenceTd">&#x068A;</td>
               <td class="confluenceTd">uni068A</td>
               <td class="confluenceTd">ARABIC LETTER DAL WITH DOT BELOW</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Sindhi</td>
             </tr>
             <tr>
               <td class="confluenceTd">068C</td>
               <td class="confluenceTd">&#x068C;</td>
               <td class="confluenceTd">uni068C</td>
               <td class="confluenceTd">ARABIC LETTER DAHAL</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Sindhi</td>
             </tr>
             <tr>
               <td class="confluenceTd">068D</td>
               <td class="confluenceTd">&#x068D;</td>
               <td class="confluenceTd">uni068D</td>
               <td class="confluenceTd">ARABIC LETTER DDAHAL</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Sindhi</td>
             </tr>
             <tr>
               <td class="confluenceTd">068F</td>
               <td class="confluenceTd">&#x068F;</td>
               <td class="confluenceTd">uni068F</td>
               <td class="confluenceTd">ARABIC LETTER DAL WITH THREE DOTS ABOVE DOWNWARDS</td>
-              <td class="confluenceTd"></td>
-            </tr>
-            <tr>
-              <td class="confluenceTd">0759</td>
-              <td class="confluenceTd">&#x0759;</td>
-              <td class="confluenceTd">uni0759</td>
-              <td class="confluenceTd">ARABIC LETTER DAL WITH TWO DOTS VERTICALLY BELOW AND SMALL TAH</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Sindhi</td>
             </tr>
             <tr>
               <td class="confluenceTd">0693</td>
               <td class="confluenceTd">&#x0693;</td>
               <td class="confluenceTd">uni0693</td>
               <td class="confluenceTd">ARABIC LETTER REH WITH RING</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Pashto</td>
             </tr>
             <tr>
               <td class="confluenceTd">0695</td>
               <td class="confluenceTd">&#x0695;</td>
               <td class="confluenceTd">uni0695</td>
               <td class="confluenceTd">ARABIC LETTER REH WITH SMALL V BELOW</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Kurdish</td>
             </tr>
             <tr>
               <td class="confluenceTd">0696</td>
               <td class="confluenceTd">&#x0696;</td>
               <td class="confluenceTd">uni0696</td>
               <td class="confluenceTd">ARABIC LETTER REH WITH DOT BELOW AND DOT ABOVE</td>
-              <td class="confluenceTd"></td>
-            </tr>
-            <tr>
-              <td class="confluenceTd">0697</td>
-              <td class="confluenceTd">&#x0697;</td>
-              <td class="confluenceTd">uni0697</td>
-              <td class="confluenceTd">ARABIC LETTER REH WITH TWO DOTS ABOVE</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Pashto</td>
             </tr>
             <tr>
               <td class="confluenceTd">0699</td>
               <td class="confluenceTd">&#x0699;</td>
               <td class="confluenceTd">uni0699</td>
               <td class="confluenceTd">ARABIC LETTER REH WITH FOUR DOTS ABOVE</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Sindhi</td>
             </tr>
             <tr>
               <td class="confluenceTd">069A</td>
               <td class="confluenceTd">&#x069A;</td>
               <td class="confluenceTd">uni069A</td>
               <td class="confluenceTd">ARABIC LETTER SEEN WITH DOT BELOW AND DOT ABOVE</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Pashto</td>
             </tr>
             <tr>
-              <td class="confluenceTd">075C</td>
-              <td class="confluenceTd">&#x075C;</td>
-              <td class="confluenceTd">uni075C</td>
-              <td class="confluenceTd">ARABIC LETTER SEEN WITH FOUR DOTS ABOVE</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">06A0</td>
+              <td class="confluenceTd">&#x06A0;</td>
+              <td class="confluenceTd">uni06A0</td>
+              <td class="confluenceTd">ARABIC LETTER AIN WITH THREE DOTS ABOVE</td>
+              <td class="confluenceTd">Jawi</td>
             </tr>
             <tr>
               <td class="confluenceTd">06A6</td>
               <td class="confluenceTd">&#x06A6;</td>
               <td class="confluenceTd">uni06A6</td>
               <td class="confluenceTd">ARABIC LETTER PEHEH</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Sindhi</td>
             </tr>
             <tr>
               <td class="confluenceTd">06AB</td>
               <td class="confluenceTd">&#x06AB;</td>
               <td class="confluenceTd">uni06AB</td>
               <td class="confluenceTd">ARABIC LETTER KAF WITH RING</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Pashto</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">06AC</td>
+              <td class="confluenceTd">&#x06AC;</td>
+              <td class="confluenceTd">uni06AC</td>
+              <td class="confluenceTd">ARABIC LETTER KAF WITH DOT ABOVE</td>
+              <td class="confluenceTd">Jawi</td>
             </tr>
             <tr>
               <td class="confluenceTd">06B1</td>
               <td class="confluenceTd">&#x06B1;</td>
               <td class="confluenceTd">uni06B1</td>
               <td class="confluenceTd">ARABIC LETTER NGOEH</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Sindhi</td>
             </tr>
             <tr>
               <td class="confluenceTd">06B3</td>
               <td class="confluenceTd">&#x06B3;</td>
               <td class="confluenceTd">uni06B3</td>
               <td class="confluenceTd">ARABIC LETTER GUEH</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Sindhi; also in AAR4</td>
             </tr>
             <tr>
               <td class="confluenceTd">06B5</td>
               <td class="confluenceTd">&#x06B5;</td>
               <td class="confluenceTd">uni06B5</td>
               <td class="confluenceTd">ARABIC LETTER LAM WITH SMALL V</td>
-              <td class="confluenceTd"></td>
-            </tr>
-            <tr>
-              <td class="confluenceTd">06BB</td>
-              <td class="confluenceTd">&#x06BB;</td>
-              <td class="confluenceTd">uni06BB</td>
-              <td class="confluenceTd">ARABIC LETTER RNOON</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Kurdish</td>
             </tr>
             <tr>
               <td class="confluenceTd">06BC</td>
               <td class="confluenceTd">&#x06BC;</td>
               <td class="confluenceTd">uni06BC</td>
               <td class="confluenceTd">ARABIC LETTER NOON WITH RING</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Pashto</td>
             </tr>
             <tr>
-              <td class="confluenceTd">0769</td>
-              <td class="confluenceTd">&#x0769;</td>
-              <td class="confluenceTd">uni0769</td>
-              <td class="confluenceTd">ARABIC LETTER NOON WITH SMALL V</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">06BD</td>
+              <td class="confluenceTd">&#x06BD;</td>
+              <td class="confluenceTd">uni06BD</td>
+              <td class="confluenceTd">ARABIC LETTER NOON WITH THREE DOTS ABOVE</td>
+              <td class="confluenceTd">Jawi</td>
             </tr>
             <tr>
               <td class="confluenceTd">06C6</td>
               <td class="confluenceTd">&#x06C6;</td>
               <td class="confluenceTd">uni06C6</td>
               <td class="confluenceTd">ARABIC LETTER OE</td>
-              <td class="confluenceTd">also in Uyghur + Kazakh + Kyrgyz module</td>
-            </tr>
-            <tr>
-              <td class="confluenceTd">06C4</td>
-              <td class="confluenceTd">&#x06C4;</td>
-              <td class="confluenceTd">uni06C4</td>
-              <td class="confluenceTd">ARABIC LETTER WAW WITH RING</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Kurdish; also in AAR3 and AAR4</td>
             </tr>
             <tr>
               <td class="confluenceTd">06D0</td>
               <td class="confluenceTd">&#x06D0;</td>
               <td class="confluenceTd">uni06D0</td>
               <td class="confluenceTd">ARABIC LETTER E</td>
-              <td class="confluenceTd">also in Uyghur + Kazakh + Kyrgyz module</td>
+              <td class="confluenceTd">Pashto; also in AAR3</td>
             </tr>
             <tr>
               <td class="confluenceTd">06CD</td>
               <td class="confluenceTd">&#x06CD;</td>
               <td class="confluenceTd">uni06CD</td>
               <td class="confluenceTd">ARABIC LETTER YEH WITH TAIL</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Pashto</td>
             </tr>
             <tr>
               <td class="confluenceTd">06CE</td>
               <td class="confluenceTd">&#x06CE;</td>
               <td class="confluenceTd">uni06CE</td>
               <td class="confluenceTd">ARABIC LETTER YEH WITH SMALL V</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Kurdish</td>
             </tr>
             <tr>
-              <td class="confluenceTd">0620</td>
-              <td class="confluenceTd">&#x0620;</td>
-              <td class="confluenceTd">uni0620</td>
-              <td class="confluenceTd">ARABIC LETTER KASHMIRI YEH</td>
-              <td class="confluenceTd"></td>
-            </tr>
-            <tr>
-              <td class="confluenceTd">08A9</td>
-              <td class="confluenceTd">&#x08A9;</td>
-              <td class="confluenceTd">uni08A9</td>
-              <td class="confluenceTd">ARABIC LETTER YEH WITH TWO DOTS BELOW AND DOT ABOVE</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">06CF</td>
+              <td class="confluenceTd">&#x06CF;</td>
+              <td class="confluenceTd">uni06CF</td>
+              <td class="confluenceTd">ARABIC LETTER WAW WITH DOT ABOVE</td>
+              <td class="confluenceTd">Balochi</td>
             </tr>
             <tr>
               <td class="confluenceTd">06FD</td>
               <td class="confluenceTd">&#x06FD;</td>
               <td class="confluenceTd">uni06FD</td>
               <td class="confluenceTd">ARABIC SIGN SINDHI AMPERSAND</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Sindhi</td>
             </tr>
             <tr>
               <td class="confluenceTd">06FE</td>
               <td class="confluenceTd">&#x06FE;</td>
               <td class="confluenceTd">uni06FE</td>
               <td class="confluenceTd">ARABIC SIGN SINDHI POSTPOSITION MEN</td>
-              <td class="confluenceTd"></td>
+              <td class="confluenceTd">Sindhi</td>
             </tr>
             <tr>
               <td class="confluenceTd">204F</td>
@@ -1644,18 +1803,1787 @@
               <td class="confluenceTd"></td>
             </tr>
             <tr>
-              <td class="confluenceTd">065F</td>
-              <td class="confluenceTd">&#x25CC;&#x065F;</td>
-              <td class="confluenceTd">uni065F</td>
-              <td class="confluenceTd">ARABIC WAVY HAMZA BELOW</td>
-              <td class="confluenceTd"></td>
-            </tr>
-            <tr>
               <td class="confluenceTd">065A</td>
               <td class="confluenceTd">&#x25CC;&#x065A;</td>
               <td class="confluenceTd">uni065A</td>
               <td class="confluenceTd">ARABIC VOWEL SIGN SMALL V ABOVE</td>
+              <td class="confluenceTd">Kurdish; also in AAR3</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="charset-section" id="adobe-arabic-roman">
+        <h2>Adobe Arabic Romanization Module</h2>
+        <div class="stats">
+          <p>Total characters supported <strong>67</strong> : 26 essential + 41 optional IPA</p>
+        </div>
+        <div class="table-download">
+          <p><a href="adobe-arabic-1-roman.txt">Download Adobe Arabic Romanization Module table</a></p>
+        </div>
+        <table class="confluenceTable" id="adobe-arabic-roman">
+          <thead>
+            <tr>
+              <th class="confluenceTh" onclick="sortTable(0, 'adobe-arabic-roman')">Unicode</th>
+              <th class="confluenceTh" onclick="sortTable(1, 'adobe-arabic-roman')">Character</th>
+              <th class="confluenceTh" onclick="sortTable(2, 'adobe-arabic-roman')">Glyph name</th>
+              <th class="confluenceTh" onclick="sortTable(3, 'adobe-arabic-roman')">Character name</th>
+              <th class="confluenceTh" onclick="sortTable(4, 'adobe-arabic-roman')">Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="confluenceTd">0120</td>
+              <td class="confluenceTd">Ġ</td>
+              <td class="confluenceTd">Gdotaccent</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER G WITH DOT ABOVE</td>
               <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0121</td>
+              <td class="confluenceTd">ġ</td>
+              <td class="confluenceTd">gdotaccent</td>
+              <td class="confluenceTd">LATIN SMALL LETTER G WITH DOT ABOVE</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">01E6</td>
+              <td class="confluenceTd">Ǧ</td>
+              <td class="confluenceTd">Gcaron</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER G WITH CARON</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">01E7</td>
+              <td class="confluenceTd">ǧ</td>
+              <td class="confluenceTd">gcaron</td>
+              <td class="confluenceTd">LATIN SMALL LETTER G WITH CARON</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E0E</td>
+              <td class="confluenceTd">Ḏ</td>
+              <td class="confluenceTd">uni1E0E</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER D WITH LINE BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E0F</td>
+              <td class="confluenceTd">ḏ</td>
+              <td class="confluenceTd">uni1E0F</td>
+              <td class="confluenceTd">LATIN SMALL LETTER D WITH LINE BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E10</td>
+              <td class="confluenceTd">Ḑ</td>
+              <td class="confluenceTd">uni1E10</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER D WITH CEDILLA</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E11</td>
+              <td class="confluenceTd">ḑ</td>
+              <td class="confluenceTd">uni1E11</td>
+              <td class="confluenceTd">LATIN SMALL LETTER D WITH CEDILLA</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E28</td>
+              <td class="confluenceTd">Ḩ</td>
+              <td class="confluenceTd">uni1E28</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER H WITH CEDILLA</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E29</td>
+              <td class="confluenceTd">ḩ</td>
+              <td class="confluenceTd">uni1E29</td>
+              <td class="confluenceTd">LATIN SMALL LETTER H WITH CEDILLA</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E2A</td>
+              <td class="confluenceTd">Ḫ</td>
+              <td class="confluenceTd">uni1E2A</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER H WITH BREVE BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E2B</td>
+              <td class="confluenceTd">ḫ</td>
+              <td class="confluenceTd">uni1E2B</td>
+              <td class="confluenceTd">LATIN SMALL LETTER H WITH BREVE BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E6E</td>
+              <td class="confluenceTd">Ṯ</td>
+              <td class="confluenceTd">uni1E6E</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER T WITH LINE BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E6F</td>
+              <td class="confluenceTd">ṯ</td>
+              <td class="confluenceTd">uni1E6F</td>
+              <td class="confluenceTd">LATIN SMALL LETTER T WITH LINE BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E94</td>
+              <td class="confluenceTd">Ẕ</td>
+              <td class="confluenceTd">uni1E94</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER Z WITH LINE BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E95</td>
+              <td class="confluenceTd">ẕ</td>
+              <td class="confluenceTd">uni1E95</td>
+              <td class="confluenceTd">LATIN SMALL LETTER Z WITH LINE BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E96</td>
+              <td class="confluenceTd">ẖ</td>
+              <td class="confluenceTd">uni1E96</td>
+              <td class="confluenceTd">LATIN SMALL LETTER H WITH LINE BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E97</td>
+              <td class="confluenceTd">ẗ</td>
+              <td class="confluenceTd">uni1E97</td>
+              <td class="confluenceTd">LATIN SMALL LETTER T WITH DIAERESIS</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1EF2</td>
+              <td class="confluenceTd">Ỳ</td>
+              <td class="confluenceTd">Ygrave</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER Y WITH GRAVE</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1EF3</td>
+              <td class="confluenceTd">ỳ</td>
+              <td class="confluenceTd">ygrave</td>
+              <td class="confluenceTd">LATIN SMALL LETTER Y WITH GRAVE</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">02BE</td>
+              <td class="confluenceTd">ʾ</td>
+              <td class="confluenceTd">uni02BE</td>
+              <td class="confluenceTd">MODIFIER LETTER RIGHT HALF RING</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">02C8</td>
+              <td class="confluenceTd">ˈ</td>
+              <td class="confluenceTd">uni02C8</td>
+              <td class="confluenceTd">MODIFIER LETTER VERTICAL LINE</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">02CC</td>
+              <td class="confluenceTd">ˌ</td>
+              <td class="confluenceTd">uni02CC</td>
+              <td class="confluenceTd">MODIFIER LETTER LOW VERTICAL LINE</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0327</td>
+              <td class="confluenceTd">&#x25CC;̧</td>
+              <td class="confluenceTd">uni0327</td>
+              <td class="confluenceTd">COMBINING CEDILLA</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0331</td>
+              <td class="confluenceTd">&#x25CC;̱</td>
+              <td class="confluenceTd">uni0331</td>
+              <td class="confluenceTd">COMBINING MACRON BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">035F</td>
+              <td class="confluenceTd">&#x25CC;͟</td>
+              <td class="confluenceTd">uni035F</td>
+              <td class="confluenceTd">COMBINING DOUBLE MACRON BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0048,0331</td>
+              <td class="confluenceTd">H̱</td>
+              <td class="confluenceTd">uni00480331</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER H, COMBINING MACRON BELOW</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0053,0331</td>
+              <td class="confluenceTd">S̱</td>
+              <td class="confluenceTd">uni00530331</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER S, COMBINING MACRON BELOW</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0054,0308</td>
+              <td class="confluenceTd">T̈</td>
+              <td class="confluenceTd">uni00540308</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER T, COMBINING DIAERESIS</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">005A,0327</td>
+              <td class="confluenceTd">Z̧</td>
+              <td class="confluenceTd">uni005A0327</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER Z, COMBINING CEDILLA</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0073,0331</td>
+              <td class="confluenceTd">s̱</td>
+              <td class="confluenceTd">uni00730331</td>
+              <td class="confluenceTd">LATIN SMALL LETTER S, COMBINING MACRON BELOW</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">007A,0327</td>
+              <td class="confluenceTd">z̧</td>
+              <td class="confluenceTd">uni007A0327</td>
+              <td class="confluenceTd">LATIN SMALL LETTER Z, COMBINING CEDILLA</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0064,035F,0068</td>
+              <td class="confluenceTd">d͟h</td>
+              <td class="confluenceTd">uni0064035F0068</td>
+              <td class="confluenceTd">LATIN SMALL LETTER D, COMBINING DOUBLE MACRON BELOW, LATIN SMALL LETTER H</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0127</td>
+              <td class="confluenceTd">ħ</td>
+              <td class="confluenceTd">hbar</td>
+              <td class="confluenceTd">LATIN SMALL LETTER H WITH STROKE</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E0D</td>
+              <td class="confluenceTd">ḍ</td>
+              <td class="confluenceTd">uni1E0D</td>
+              <td class="confluenceTd">LATIN SMALL LETTER D WITH DOT BELOW</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E25</td>
+              <td class="confluenceTd">ḥ</td>
+              <td class="confluenceTd">uni1E25</td>
+              <td class="confluenceTd">LATIN SMALL LETTER H WITH DOT BELOW</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E63</td>
+              <td class="confluenceTd">ṣ</td>
+              <td class="confluenceTd">uni1E63</td>
+              <td class="confluenceTd">LATIN SMALL LETTER S WITH DOT BELOW</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E6D</td>
+              <td class="confluenceTd">ṭ</td>
+              <td class="confluenceTd">uni1E6D</td>
+              <td class="confluenceTd">LATIN SMALL LETTER T WITH DOT BELOW</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E93</td>
+              <td class="confluenceTd">ẓ</td>
+              <td class="confluenceTd">uni1E93</td>
+              <td class="confluenceTd">LATIN SMALL LETTER Z WITH DOT BELOW</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">AB53</td>
+              <td class="confluenceTd">ꭓ</td>
+              <td class="confluenceTd">uniAB53</td>
+              <td class="confluenceTd">LATIN SMALL LETTER CHI</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0251</td>
+              <td class="confluenceTd">ɑ</td>
+              <td class="confluenceTd">uni0251</td>
+              <td class="confluenceTd">LATIN SMALL LETTER ALPHA</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0262</td>
+              <td class="confluenceTd">ɢ</td>
+              <td class="confluenceTd">uni0262</td>
+              <td class="confluenceTd">LATIN LETTER SMALL CAPITAL G</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0263</td>
+              <td class="confluenceTd">ɣ</td>
+              <td class="confluenceTd">uni0263</td>
+              <td class="confluenceTd">LATIN SMALL LETTER GAMMA</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0268</td>
+              <td class="confluenceTd">ɨ</td>
+              <td class="confluenceTd">uni0268</td>
+              <td class="confluenceTd">LATIN SMALL LETTER I WITH STROKE</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">026A</td>
+              <td class="confluenceTd">ɪ</td>
+              <td class="confluenceTd">uni026A</td>
+              <td class="confluenceTd">LATIN LETTER SMALL CAPITAL I</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">026B</td>
+              <td class="confluenceTd">ɫ</td>
+              <td class="confluenceTd">uni026B</td>
+              <td class="confluenceTd">LATIN SMALL LETTER L WITH MIDDLE TILDE</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">027E</td>
+              <td class="confluenceTd">ɾ</td>
+              <td class="confluenceTd">uni027E</td>
+              <td class="confluenceTd">LATIN SMALL LETTER R WITH FISHHOOK</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0283</td>
+              <td class="confluenceTd">ʃ</td>
+              <td class="confluenceTd">uni0283</td>
+              <td class="confluenceTd">LATIN SMALL LETTER ESH</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0289</td>
+              <td class="confluenceTd">ʉ</td>
+              <td class="confluenceTd">uni0289</td>
+              <td class="confluenceTd">LATIN SMALL LETTER U BAR</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">028A</td>
+              <td class="confluenceTd">ʊ</td>
+              <td class="confluenceTd">uni028A</td>
+              <td class="confluenceTd">LATIN SMALL LETTER UPSILON</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0292</td>
+              <td class="confluenceTd">ʒ</td>
+              <td class="confluenceTd">uni0292</td>
+              <td class="confluenceTd">LATIN SMALL LETTER EZH</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0294</td>
+              <td class="confluenceTd">ʔ</td>
+              <td class="confluenceTd">uni0294</td>
+              <td class="confluenceTd">LATIN LETTER GLOTTAL STOP</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0295</td>
+              <td class="confluenceTd">ʕ</td>
+              <td class="confluenceTd">uni0295</td>
+              <td class="confluenceTd">LATIN LETTER PHARYNGEAL VOICED FRICATIVE</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">029C</td>
+              <td class="confluenceTd">ʜ</td>
+              <td class="confluenceTd">uni029C</td>
+              <td class="confluenceTd">LATIN LETTER SMALL CAPITAL H</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">02A2</td>
+              <td class="confluenceTd">ʢ</td>
+              <td class="confluenceTd">uni02A2</td>
+              <td class="confluenceTd">LATIN LETTER REVERSED GLOTTAL STOP WITH STROKE</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">02A4</td>
+              <td class="confluenceTd">ʤ</td>
+              <td class="confluenceTd">uni02A4</td>
+              <td class="confluenceTd">LATIN SMALL LETTER DEZH DIGRAPH</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">03B8</td>
+              <td class="confluenceTd">θ</td>
+              <td class="confluenceTd">theta</td>
+              <td class="confluenceTd">GREEK SMALL LETTER THETA</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">02B0</td>
+              <td class="confluenceTd">ʰ</td>
+              <td class="confluenceTd">uni02B0</td>
+              <td class="confluenceTd">MODIFIER LETTER SMALL H</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">02BB</td>
+              <td class="confluenceTd">ʻ</td>
+              <td class="confluenceTd">uni02BB</td>
+              <td class="confluenceTd">MODIFIER LETTER TURNED COMMA</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">02BC</td>
+              <td class="confluenceTd">ʼ</td>
+              <td class="confluenceTd">uni02BC</td>
+              <td class="confluenceTd">MODIFIER LETTER APOSTROPHE</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">02BF</td>
+              <td class="confluenceTd">ʿ</td>
+              <td class="confluenceTd">uni02BF</td>
+              <td class="confluenceTd">MODIFIER LETTER LEFT HALF RING</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">02D0</td>
+              <td class="confluenceTd">ː</td>
+              <td class="confluenceTd">uni02D0</td>
+              <td class="confluenceTd">MODIFIER LETTER TRIANGULAR COLON</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">02E0</td>
+              <td class="confluenceTd">ˠ</td>
+              <td class="confluenceTd">uni02E0</td>
+              <td class="confluenceTd">MODIFIER LETTER SMALL GAMMA</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">02E4</td>
+              <td class="confluenceTd">ˤ</td>
+              <td class="confluenceTd">uni02E4</td>
+              <td class="confluenceTd">MODIFIER LETTER SMALL REVERSED GLOTTAL STOP</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0303</td>
+              <td class="confluenceTd">&#x25CC;̃</td>
+              <td class="confluenceTd">tildecomb</td>
+              <td class="confluenceTd">COMBINING TILDE</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0361</td>
+              <td class="confluenceTd">&#x25CC;͡</td>
+              <td class="confluenceTd">uni0361</td>
+              <td class="confluenceTd">COMBINING DOUBLE INVERTED BREVE</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0074,0303</td>
+              <td class="confluenceTd">t̃</td>
+              <td class="confluenceTd">uni00740303</td>
+              <td class="confluenceTd">LATIN SMALL LETTER T, COMBINING TILDE</td>
+              <td class="confluenceTd">optional: IPA, combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">00F0,0303</td>
+              <td class="confluenceTd">ð̃</td>
+              <td class="confluenceTd">uni00F00303</td>
+              <td class="confluenceTd">LATIN SMALL LETTER ETH, COMBINING TILDE</td>
+              <td class="confluenceTd">optional: IPA, combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0064,0361,0292</td>
+              <td class="confluenceTd">d͡ʒ</td>
+              <td class="confluenceTd">uni006403610292</td>
+              <td class="confluenceTd">LATIN SMALL LETTER D, COMBINING DOUBLE INVERTED BREVE, LATIN SMALL LETTER EZH</td>
+              <td class="confluenceTd">optional: IPA, combined</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="charset-section" id="adobe-urdu-farsi-punjabi-roman">
+        <h2>Adobe Urdu + Farsi + Punjabi Romanization Module</h2>
+        <div class="stats">
+          <p>Total characters supported <strong>62</strong> : 22 essential + 40 optional IPA</p>
+        </div>
+        <div class="table-download">
+          <p><a href="adobe-arabic-2-roman.txt">Download Adobe Urdu + Farsi + Punjabi Romanization Module table</a></p>
+        </div>
+        <table class="confluenceTable" id="adobe-urdu-farsi-punjabi-roman">
+          <thead>
+            <tr>
+              <th class="confluenceTh" onclick="sortTable(0, 'adobe-urdu-farsi-punjabi-roman')">Unicode</th>
+              <th class="confluenceTh" onclick="sortTable(1, 'adobe-urdu-farsi-punjabi-roman')">Character</th>
+              <th class="confluenceTh" onclick="sortTable(2, 'adobe-urdu-farsi-punjabi-roman')">Glyph name</th>
+              <th class="confluenceTh" onclick="sortTable(3, 'adobe-urdu-farsi-punjabi-roman')">Character name</th>
+              <th class="confluenceTh" onclick="sortTable(4, 'adobe-urdu-farsi-punjabi-roman')">Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="confluenceTd">1E0A</td>
+              <td class="confluenceTd">Ḋ</td>
+              <td class="confluenceTd">uni1E0A</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER D WITH DOT ABOVE</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E0B</td>
+              <td class="confluenceTd">ḋ</td>
+              <td class="confluenceTd">uni1E0B</td>
+              <td class="confluenceTd">LATIN SMALL LETTER D WITH DOT ABOVE</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E32</td>
+              <td class="confluenceTd">Ḳ</td>
+              <td class="confluenceTd">uni1E32</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER K WITH DOT BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E33</td>
+              <td class="confluenceTd">ḳ</td>
+              <td class="confluenceTd">uni1E33</td>
+              <td class="confluenceTd">LATIN SMALL LETTER K WITH DOT BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E44</td>
+              <td class="confluenceTd">Ṅ</td>
+              <td class="confluenceTd">uni1E44</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER N WITH DOT ABOVE</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E45</td>
+              <td class="confluenceTd">ṅ</td>
+              <td class="confluenceTd">uni1E45</td>
+              <td class="confluenceTd">LATIN SMALL LETTER N WITH DOT ABOVE</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E46</td>
+              <td class="confluenceTd">Ṇ</td>
+              <td class="confluenceTd">uni1E46</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER N WITH DOT BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E47</td>
+              <td class="confluenceTd">ṇ</td>
+              <td class="confluenceTd">uni1E47</td>
+              <td class="confluenceTd">LATIN SMALL LETTER N WITH DOT BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E48</td>
+              <td class="confluenceTd">Ṉ</td>
+              <td class="confluenceTd">uni1E48</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER N WITH LINE BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E49</td>
+              <td class="confluenceTd">ṉ</td>
+              <td class="confluenceTd">uni1E49</td>
+              <td class="confluenceTd">LATIN SMALL LETTER N WITH LINE BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E58</td>
+              <td class="confluenceTd">Ṙ</td>
+              <td class="confluenceTd">uni1E58</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER R WITH DOT ABOVE</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E59</td>
+              <td class="confluenceTd">ṙ</td>
+              <td class="confluenceTd">uni1E59</td>
+              <td class="confluenceTd">LATIN SMALL LETTER R WITH DOT ABOVE</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E5A</td>
+              <td class="confluenceTd">Ṛ</td>
+              <td class="confluenceTd">uni1E5A</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER R WITH DOT BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E5B</td>
+              <td class="confluenceTd">ṛ</td>
+              <td class="confluenceTd">uni1E5B</td>
+              <td class="confluenceTd">LATIN SMALL LETTER R WITH DOT BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E6A</td>
+              <td class="confluenceTd">Ṫ</td>
+              <td class="confluenceTd">uni1E6A</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER T WITH DOT ABOVE</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E6B</td>
+              <td class="confluenceTd">ṫ</td>
+              <td class="confluenceTd">uni1E6B</td>
+              <td class="confluenceTd">LATIN SMALL LETTER T WITH DOT ABOVE</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E88</td>
+              <td class="confluenceTd">Ẉ</td>
+              <td class="confluenceTd">uni1E88</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER W WITH DOT BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E89</td>
+              <td class="confluenceTd">ẉ</td>
+              <td class="confluenceTd">uni1E89</td>
+              <td class="confluenceTd">LATIN SMALL LETTER W WITH DOT BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1EF4</td>
+              <td class="confluenceTd">Ỵ</td>
+              <td class="confluenceTd">uni1EF4</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER Y WITH DOT BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1EF5</td>
+              <td class="confluenceTd">ỵ</td>
+              <td class="confluenceTd">uni1EF5</td>
+              <td class="confluenceTd">LATIN SMALL LETTER Y WITH DOT BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0304</td>
+              <td class="confluenceTd">&#x25CC;̄</td>
+              <td class="confluenceTd">uni0304</td>
+              <td class="confluenceTd">COMBINING MACRON</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0324</td>
+              <td class="confluenceTd">&#x25CC;̤</td>
+              <td class="confluenceTd">uni0324</td>
+              <td class="confluenceTd">COMBINING DIAERESIS BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0053,0304</td>
+              <td class="confluenceTd">S̄</td>
+              <td class="confluenceTd">uni00530304</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER S, COMBINING MACRON</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0054,0324</td>
+              <td class="confluenceTd">T̤</td>
+              <td class="confluenceTd">uni00540324</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER T, COMBINING DIAERESIS BELOW</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">005A,0304</td>
+              <td class="confluenceTd">Z̄</td>
+              <td class="confluenceTd">uni005A0304</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER Z, COMBINING MACRON</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">005A,0324</td>
+              <td class="confluenceTd">Z̤</td>
+              <td class="confluenceTd">uni005A0324</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER Z, COMBINING DIAERESIS BELOW</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0073,0304</td>
+              <td class="confluenceTd">s̄</td>
+              <td class="confluenceTd">uni00730304</td>
+              <td class="confluenceTd">LATIN SMALL LETTER S, COMBINING MACRON</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0074,0324</td>
+              <td class="confluenceTd">t̤</td>
+              <td class="confluenceTd">uni00740324</td>
+              <td class="confluenceTd">LATIN SMALL LETTER T, COMBINING DIAERESIS BELOW</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">007A,0304</td>
+              <td class="confluenceTd">z̄</td>
+              <td class="confluenceTd">uni007A0304</td>
+              <td class="confluenceTd">LATIN SMALL LETTER Z, COMBINING MACRON</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">007A,0324</td>
+              <td class="confluenceTd">z̤</td>
+              <td class="confluenceTd">uni007A0324</td>
+              <td class="confluenceTd">LATIN SMALL LETTER Z, COMBINING DIAERESIS BELOW</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0062,035F,0068</td>
+              <td class="confluenceTd">b͟h</td>
+              <td class="confluenceTd">uni0062035F0068</td>
+              <td class="confluenceTd">LATIN SMALL LETTER B, COMBINING DOUBLE MACRON BELOW, LATIN SMALL LETTER H</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0067,035F,0068</td>
+              <td class="confluenceTd">g͟h</td>
+              <td class="confluenceTd">uni0067035F0068</td>
+              <td class="confluenceTd">LATIN SMALL LETTER G, COMBINING DOUBLE MACRON BELOW, LATIN SMALL LETTER H</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">006A,035F,0068</td>
+              <td class="confluenceTd">j͟h</td>
+              <td class="confluenceTd">uni006A035F0068</td>
+              <td class="confluenceTd">LATIN SMALL LETTER J, COMBINING DOUBLE MACRON BELOW, LATIN SMALL LETTER H</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">006B,035F,0068</td>
+              <td class="confluenceTd">k͟h</td>
+              <td class="confluenceTd">uni006B035F0068</td>
+              <td class="confluenceTd">LATIN SMALL LETTER K, COMBINING DOUBLE MACRON BELOW, LATIN SMALL LETTER H</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">006C,035F,0068</td>
+              <td class="confluenceTd">l͟h</td>
+              <td class="confluenceTd">uni006C035F0068</td>
+              <td class="confluenceTd">LATIN SMALL LETTER L, COMBINING DOUBLE MACRON BELOW, LATIN SMALL LETTER H</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">006E,035F,0068</td>
+              <td class="confluenceTd">n͟h</td>
+              <td class="confluenceTd">uni006E035F0068</td>
+              <td class="confluenceTd">LATIN SMALL LETTER N, COMBINING DOUBLE MACRON BELOW, LATIN SMALL LETTER H</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0070,035F,0068</td>
+              <td class="confluenceTd">p͟h</td>
+              <td class="confluenceTd">uni0070035F0068</td>
+              <td class="confluenceTd">LATIN SMALL LETTER P, COMBINING DOUBLE MACRON BELOW, LATIN SMALL LETTER H</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0074,035F,0068</td>
+              <td class="confluenceTd">t͟h</td>
+              <td class="confluenceTd">uni0074035F0068</td>
+              <td class="confluenceTd">LATIN SMALL LETTER T, COMBINING DOUBLE MACRON BELOW, LATIN SMALL LETTER H</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">010F,035F,0068</td>
+              <td class="confluenceTd">ď͟h</td>
+              <td class="confluenceTd">uni010F035F0068</td>
+              <td class="confluenceTd">LATIN SMALL LETTER D WITH CARON, COMBINING DOUBLE MACRON BELOW, LATIN SMALL LETTER H</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0063,035F,0068,035F,0068</td>
+              <td class="confluenceTd">c͟h͟h</td>
+              <td class="confluenceTd">uni0063035F0068035F0068</td>
+              <td class="confluenceTd">LATIN SMALL LETTER C, COMBINING DOUBLE MACRON BELOW, LATIN SMALL LETTER H, COMBINING DOUBLE MACRON BELOW, LATIN SMALL LETTER H</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0129</td>
+              <td class="confluenceTd">ĩ</td>
+              <td class="confluenceTd">itilde</td>
+              <td class="confluenceTd">LATIN SMALL LETTER I WITH TILDE</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">014B</td>
+              <td class="confluenceTd">ŋ</td>
+              <td class="confluenceTd">eng</td>
+              <td class="confluenceTd">LATIN SMALL LETTER ENG</td>
+              <td class="confluenceTd">optional: IPA; also in AAR3R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0169</td>
+              <td class="confluenceTd">ũ</td>
+              <td class="confluenceTd">utilde</td>
+              <td class="confluenceTd">LATIN SMALL LETTER U WITH TILDE</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1EBD</td>
+              <td class="confluenceTd">ẽ</td>
+              <td class="confluenceTd">uni1EBD</td>
+              <td class="confluenceTd">LATIN SMALL LETTER E WITH TILDE</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0252</td>
+              <td class="confluenceTd">ɒ</td>
+              <td class="confluenceTd">uni0252</td>
+              <td class="confluenceTd">LATIN SMALL LETTER TURNED ALPHA</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0254</td>
+              <td class="confluenceTd">ɔ</td>
+              <td class="confluenceTd">uni0254</td>
+              <td class="confluenceTd">LATIN SMALL LETTER OPEN O</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0256</td>
+              <td class="confluenceTd">ɖ</td>
+              <td class="confluenceTd">uni0256</td>
+              <td class="confluenceTd">LATIN SMALL LETTER D WITH TAIL</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0259</td>
+              <td class="confluenceTd">ə</td>
+              <td class="confluenceTd">uni0259</td>
+              <td class="confluenceTd">LATIN SMALL LETTER SCHWA</td>
+              <td class="confluenceTd">optional: IPA; also in AAR3R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">025B</td>
+              <td class="confluenceTd">ɛ</td>
+              <td class="confluenceTd">uni025B</td>
+              <td class="confluenceTd">LATIN SMALL LETTER OPEN E</td>
+              <td class="confluenceTd">optional: IPA; also in AAR3R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0261</td>
+              <td class="confluenceTd">ɡ</td>
+              <td class="confluenceTd">uni0261</td>
+              <td class="confluenceTd">LATIN SMALL LETTER SCRIPT G</td>
+              <td class="confluenceTd">optional: IPA; also in AAR3R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0266</td>
+              <td class="confluenceTd">ɦ</td>
+              <td class="confluenceTd">uni0266</td>
+              <td class="confluenceTd">LATIN SMALL LETTER H WITH HOOK</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0273</td>
+              <td class="confluenceTd">ɳ</td>
+              <td class="confluenceTd">uni0273</td>
+              <td class="confluenceTd">LATIN SMALL LETTER N WITH RETROFLEX HOOK</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0279</td>
+              <td class="confluenceTd">ɹ</td>
+              <td class="confluenceTd">uni0279</td>
+              <td class="confluenceTd">LATIN SMALL LETTER TURNED R</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">027D</td>
+              <td class="confluenceTd">ɽ</td>
+              <td class="confluenceTd">uni027D</td>
+              <td class="confluenceTd">LATIN SMALL LETTER R WITH TAIL</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0288</td>
+              <td class="confluenceTd">ʈ</td>
+              <td class="confluenceTd">uni0288</td>
+              <td class="confluenceTd">LATIN SMALL LETTER T WITH RETROFLEX HOOK</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">028B</td>
+              <td class="confluenceTd">ʋ</td>
+              <td class="confluenceTd">uni028B</td>
+              <td class="confluenceTd">LATIN SMALL LETTER V WITH HOOK</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">02A7</td>
+              <td class="confluenceTd">ʧ</td>
+              <td class="confluenceTd">uni02A7</td>
+              <td class="confluenceTd">LATIN SMALL LETTER TESH DIGRAPH</td>
+              <td class="confluenceTd">optional: IPA; also in AAR3R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">02B1</td>
+              <td class="confluenceTd">ʱ</td>
+              <td class="confluenceTd">uni02B1</td>
+              <td class="confluenceTd">MODIFIER LETTER SMALL H WITH HOOK</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">032A</td>
+              <td class="confluenceTd">&#x25CC;̪</td>
+              <td class="confluenceTd">uni032A</td>
+              <td class="confluenceTd">COMBINING BRIDGE BELOW</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0251,0303</td>
+              <td class="confluenceTd">ɑ̃</td>
+              <td class="confluenceTd">uni02510303</td>
+              <td class="confluenceTd">LATIN SMALL LETTER ALPHA, COMBINING TILDE</td>
+              <td class="confluenceTd">optional: IPA, combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0254,0303</td>
+              <td class="confluenceTd">ɔ̃</td>
+              <td class="confluenceTd">uni02540303</td>
+              <td class="confluenceTd">LATIN SMALL LETTER OPEN O, COMBINING TILDE</td>
+              <td class="confluenceTd">optional: IPA, combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0064,032A</td>
+              <td class="confluenceTd">d̪</td>
+              <td class="confluenceTd">uni0064032A</td>
+              <td class="confluenceTd">LATIN SMALL LETTER D, COMBINING BRIDGE BELOW</td>
+              <td class="confluenceTd">optional: IPA, combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">006E,032A</td>
+              <td class="confluenceTd">n̪</td>
+              <td class="confluenceTd">uni006E032A</td>
+              <td class="confluenceTd">LATIN SMALL LETTER N, COMBINING BRIDGE BELOW</td>
+              <td class="confluenceTd">optional: IPA, combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0074,032A</td>
+              <td class="confluenceTd">t̪</td>
+              <td class="confluenceTd">uni0074032A</td>
+              <td class="confluenceTd">LATIN SMALL LETTER T, COMBINING BRIDGE BELOW</td>
+              <td class="confluenceTd">optional: IPA, combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">00E6,0303</td>
+              <td class="confluenceTd">æ̃</td>
+              <td class="confluenceTd">uni00E60303</td>
+              <td class="confluenceTd">LATIN SMALL LETTER AE, COMBINING TILDE</td>
+              <td class="confluenceTd">optional: IPA, combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0074,0361,0283</td>
+              <td class="confluenceTd">t͡ʃ</td>
+              <td class="confluenceTd">uni007403610283</td>
+              <td class="confluenceTd">LATIN SMALL LETTER T, COMBINING DOUBLE INVERTED BREVE, LATIN SMALL LETTER ESH</td>
+              <td class="confluenceTd">optional: IPA, combined; also in AAR3R</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="charset-section" id="kashmiri-saraiki-balti-romanization">
+        <h2>Adobe Kashmiri + Saraiki + Balti Romanization Module</h2>
+        <div class="stats">
+          <p>Total characters supported <strong>32</strong> : 17 essential + 15 overlapping with Extended</p>
+        </div>
+        <div class="table-download">
+          <p><a href="adobe-arabic-4-roman.txt">Download Adobe Kashmiri + Saraiki + Balti Romanization Module table</a></p>
+        </div>
+        <table class="confluenceTable" id="adobe-nastaliq-roman">
+          <thead>
+            <tr>
+              <th class="confluenceTh" onclick="sortTable(0, 'adobe-nastaliq-roman')">Unicode</th>
+              <th class="confluenceTh" onclick="sortTable(1, 'adobe-nastaliq-roman')">Character</th>
+              <th class="confluenceTh" onclick="sortTable(2, 'adobe-nastaliq-roman')">Glyph name</th>
+              <th class="confluenceTh" onclick="sortTable(3, 'adobe-nastaliq-roman')">Character name</th>
+              <th class="confluenceTh" onclick="sortTable(4, 'adobe-nastaliq-roman')">Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="confluenceTd">01E8</td>
+              <td class="confluenceTd">Ǩ</td>
+              <td class="confluenceTd">uni01E8</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER K WITH CARON</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">01E9</td>
+              <td class="confluenceTd">ǩ</td>
+              <td class="confluenceTd">uni01E9</td>
+              <td class="confluenceTd">LATIN SMALL LETTER K WITH CARON</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E60</td>
+              <td class="confluenceTd">Ṡ</td>
+              <td class="confluenceTd">uni1E60</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER S WITH DOT ABOVE</td>
+              <td class="confluenceTd">also in AAR5R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E61</td>
+              <td class="confluenceTd">ṡ</td>
+              <td class="confluenceTd">uni1E61</td>
+              <td class="confluenceTd">LATIN SMALL LETTER S WITH DOT ABOVE</td>
+              <td class="confluenceTd">also in AAR5R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E8E</td>
+              <td class="confluenceTd">Ẏ</td>
+              <td class="confluenceTd">uni1E8E</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER Y WITH DOT ABOVE</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E8F</td>
+              <td class="confluenceTd">ẏ</td>
+              <td class="confluenceTd">uni1E8F</td>
+              <td class="confluenceTd">LATIN SMALL LETTER Y WITH DOT ABOVE</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1EA0</td>
+              <td class="confluenceTd">Ạ</td>
+              <td class="confluenceTd">uni1EA0</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER A WITH DOT BELOW</td>
+              <td class="confluenceTd">also in AAR5R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1EA1</td>
+              <td class="confluenceTd">ạ</td>
+              <td class="confluenceTd">uni1EA1</td>
+              <td class="confluenceTd">LATIN SMALL LETTER A WITH DOT BELOW</td>
+              <td class="confluenceTd">also in AAR5R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1ECC</td>
+              <td class="confluenceTd">Ọ</td>
+              <td class="confluenceTd">uni1ECC</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER O WITH DOT BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1ECD</td>
+              <td class="confluenceTd">ọ</td>
+              <td class="confluenceTd">uni1ECD</td>
+              <td class="confluenceTd">LATIN SMALL LETTER O WITH DOT BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">02B9</td>
+              <td class="confluenceTd">ʹ</td>
+              <td class="confluenceTd">uni02B9</td>
+              <td class="confluenceTd">MODIFIER LETTER PRIME</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0323</td>
+              <td class="confluenceTd">&#x25CC;̣</td>
+              <td class="confluenceTd">dotbelowcomb</td>
+              <td class="confluenceTd">COMBINING DOT BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1EA0,0304</td>
+              <td class="confluenceTd">Ạ̄</td>
+              <td class="confluenceTd">uni1EA00304</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER A WITH DOT BELOW, COMBINING MACRON</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1EA1,0304</td>
+              <td class="confluenceTd">ạ̄</td>
+              <td class="confluenceTd">uni1EA10304</td>
+              <td class="confluenceTd">LATIN SMALL LETTER A WITH DOT BELOW, COMBINING MACRON</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">010C,0323</td>
+              <td class="confluenceTd">Č̣</td>
+              <td class="confluenceTd">uni010C0323</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER C WITH CARON, COMBINING DOT BELOW</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">010D,0323</td>
+              <td class="confluenceTd">č̣</td>
+              <td class="confluenceTd">uni010D0323</td>
+              <td class="confluenceTd">LATIN SMALL LETTER C WITH CARON, COMBINING DOT BELOW</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1D91</td>
+              <td class="confluenceTd">ᶑ</td>
+              <td class="confluenceTd">uni1D91</td>
+              <td class="confluenceTd">LATIN SMALL LETTER D WITH HOOK AND TAIL</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">AB67</td>
+              <td class="confluenceTd">ꭧ</td>
+              <td class="confluenceTd">uniAB67</td>
+              <td class="confluenceTd">LATIN SMALL LETTER TS DIGRAPH WITH RETROFLEX HOOK</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0253</td>
+              <td class="confluenceTd">ɓ</td>
+              <td class="confluenceTd">uni0253</td>
+              <td class="confluenceTd">LATIN SMALL LETTER B WITH HOOK</td>
+              <td class="confluenceTd">optional: IPA; also in AAR5R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0255</td>
+              <td class="confluenceTd">ɕ</td>
+              <td class="confluenceTd">uni0255</td>
+              <td class="confluenceTd">LATIN SMALL LETTER C WITH CURL</td>
+              <td class="confluenceTd">optional: IPA; also in AAR3R and AAR5R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0260</td>
+              <td class="confluenceTd">ɠ</td>
+              <td class="confluenceTd">uni0260</td>
+              <td class="confluenceTd">LATIN SMALL LETTER G WITH HOOK</td>
+              <td class="confluenceTd">optional: IPA; also in AAR5R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">026D</td>
+              <td class="confluenceTd">ɭ</td>
+              <td class="confluenceTd">uni026D</td>
+              <td class="confluenceTd">LATIN SMALL LETTER L WITH RETROFLEX HOOK</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0272</td>
+              <td class="confluenceTd">ɲ</td>
+              <td class="confluenceTd">uni0272</td>
+              <td class="confluenceTd">LATIN SMALL LETTER N WITH LEFT HOOK</td>
+              <td class="confluenceTd">optional: IPA; also in AAR5R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0281</td>
+              <td class="confluenceTd">ʁ</td>
+              <td class="confluenceTd">uni0281</td>
+              <td class="confluenceTd">LATIN LETTER SMALL CAPITAL INVERTED R</td>
+              <td class="confluenceTd">optional: IPA; also in AAR3R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0282</td>
+              <td class="confluenceTd">ʂ</td>
+              <td class="confluenceTd">uni0282</td>
+              <td class="confluenceTd">LATIN SMALL LETTER S WITH HOOK</td>
+              <td class="confluenceTd">optional: IPA; also in AAR5R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0284</td>
+              <td class="confluenceTd">ʄ</td>
+              <td class="confluenceTd">uni0284</td>
+              <td class="confluenceTd">LATIN SMALL LETTER DOTLESS J WITH STROKE AND HOOK</td>
+              <td class="confluenceTd">optional: IPA; also in AAR5R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">02A3</td>
+              <td class="confluenceTd">ʣ</td>
+              <td class="confluenceTd">uni02A3</td>
+              <td class="confluenceTd">LATIN SMALL LETTER DZ DIGRAPH</td>
+              <td class="confluenceTd">optional: IPA; also in AAR5R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">02A6</td>
+              <td class="confluenceTd">ʦ</td>
+              <td class="confluenceTd">uni02A6</td>
+              <td class="confluenceTd">LATIN SMALL LETTER TS DIGRAPH</td>
+              <td class="confluenceTd">optional: IPA; also in AAR3R and AAR5R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">02B2</td>
+              <td class="confluenceTd">ʲ</td>
+              <td class="confluenceTd">uni02B2</td>
+              <td class="confluenceTd">MODIFIER LETTER SMALL J</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0288,0361,0282</td>
+              <td class="confluenceTd">ʈ͡ʂ</td>
+              <td class="confluenceTd">uni028803610282</td>
+              <td class="confluenceTd">LATIN SMALL LETTER T WITH RETROFLEX HOOK, COMBINING DOUBLE INVERTED BREVE, LATIN SMALL LETTER S WITH HOOK</td>
+              <td class="confluenceTd">optional: IPA, combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0064,0361,007A</td>
+              <td class="confluenceTd">d͡z</td>
+              <td class="confluenceTd">uni00640361007A</td>
+              <td class="confluenceTd">LATIN SMALL LETTER D, COMBINING DOUBLE INVERTED BREVE, LATIN SMALL LETTER Z</td>
+              <td class="confluenceTd">optional: IPA, combined; also in AAR5R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0074,0361,0073</td>
+              <td class="confluenceTd">t͡s</td>
+              <td class="confluenceTd">uni007403610073</td>
+              <td class="confluenceTd">LATIN SMALL LETTER T, COMBINING DOUBLE INVERTED BREVE, LATIN SMALL LETTER S</td>
+              <td class="confluenceTd">optional: IPA, combined; also in AAR5R</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="charset-section" id="adobe-uyghur-kazakh-kyrgyz-roman">
+        <h2>Adobe Uyghur + Kazakh + Kyrgyz Romanization Module</h2>
+        <div class="stats">
+          <p>Total characters supported <strong>14</strong> : all optional IPA</p>
+        </div>
+        <div class="table-download">
+          <p><a href="adobe-arabic-3-roman.txt">Download Adobe Uyghur + Kazakh + Kyrgyz Romanization Module table</a></p>
+        </div>
+        <table class="confluenceTable" id="adobe-uyghur-kazakh-kyrgyz-roman">
+          <thead>
+            <tr>
+              <th class="confluenceTh" onclick="sortTable(0, 'adobe-uyghur-kazakh-kyrgyz-roman')">Unicode</th>
+              <th class="confluenceTh" onclick="sortTable(1, 'adobe-uyghur-kazakh-kyrgyz-roman')">Character</th>
+              <th class="confluenceTh" onclick="sortTable(2, 'adobe-uyghur-kazakh-kyrgyz-roman')">Glyph name</th>
+              <th class="confluenceTh" onclick="sortTable(3, 'adobe-uyghur-kazakh-kyrgyz-roman')">Character name</th>
+              <th class="confluenceTh" onclick="sortTable(4, 'adobe-uyghur-kazakh-kyrgyz-roman')">Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="confluenceTd">014B</td>
+              <td class="confluenceTd">ŋ</td>
+              <td class="confluenceTd">eng</td>
+              <td class="confluenceTd">LATIN SMALL LETTER ENG</td>
+              <td class="confluenceTd">optional: IPA; also in AAR2R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0255</td>
+              <td class="confluenceTd">ɕ</td>
+              <td class="confluenceTd">uni0255</td>
+              <td class="confluenceTd">LATIN SMALL LETTER C WITH CURL</td>
+              <td class="confluenceTd">optional: IPA; also in AAR4R and AAR5R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0259</td>
+              <td class="confluenceTd">ə</td>
+              <td class="confluenceTd">uni0259</td>
+              <td class="confluenceTd">LATIN SMALL LETTER SCHWA</td>
+              <td class="confluenceTd">optional: IPA; also in AAR2R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">025B</td>
+              <td class="confluenceTd">ɛ</td>
+              <td class="confluenceTd">uni025B</td>
+              <td class="confluenceTd">LATIN SMALL LETTER OPEN E</td>
+              <td class="confluenceTd">optional: IPA; also in AAR2R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0261</td>
+              <td class="confluenceTd">ɡ</td>
+              <td class="confluenceTd">uni0261</td>
+              <td class="confluenceTd">LATIN SMALL LETTER SCRIPT G</td>
+              <td class="confluenceTd">optional: IPA; also in AAR2R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">026F</td>
+              <td class="confluenceTd">ɯ</td>
+              <td class="confluenceTd">uni026F</td>
+              <td class="confluenceTd">LATIN SMALL LETTER TURNED M</td>
+              <td class="confluenceTd">optional: IPA; also in AAR5R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0274</td>
+              <td class="confluenceTd">ɴ</td>
+              <td class="confluenceTd">uni0274</td>
+              <td class="confluenceTd">LATIN LETTER SMALL CAPITAL N</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0281</td>
+              <td class="confluenceTd">ʁ</td>
+              <td class="confluenceTd">uni0281</td>
+              <td class="confluenceTd">LATIN LETTER SMALL CAPITAL INVERTED R</td>
+              <td class="confluenceTd">optional: IPA; also in AAR4R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">028F</td>
+              <td class="confluenceTd">ʏ</td>
+              <td class="confluenceTd">uni028F</td>
+              <td class="confluenceTd">LATIN LETTER SMALL CAPITAL Y</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0291</td>
+              <td class="confluenceTd">ʑ</td>
+              <td class="confluenceTd">uni0291</td>
+              <td class="confluenceTd">LATIN SMALL LETTER Z WITH CURL</td>
+              <td class="confluenceTd">optional: IPA; also in AAR5R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">02A6</td>
+              <td class="confluenceTd">ʦ</td>
+              <td class="confluenceTd">uni02A6</td>
+              <td class="confluenceTd">LATIN SMALL LETTER TS DIGRAPH</td>
+              <td class="confluenceTd">optional: IPA; also in AAR4R and AAR5R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">02A7</td>
+              <td class="confluenceTd">ʧ</td>
+              <td class="confluenceTd">uni02A7</td>
+              <td class="confluenceTd">LATIN SMALL LETTER TESH DIGRAPH</td>
+              <td class="confluenceTd">optional: IPA; also in AAR2R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">02A8</td>
+              <td class="confluenceTd">ʨ</td>
+              <td class="confluenceTd">uni02A8</td>
+              <td class="confluenceTd">LATIN SMALL LETTER TC DIGRAPH WITH CURL</td>
+              <td class="confluenceTd">optional: IPA; also in AAR5R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0074,0361,0283</td>
+              <td class="confluenceTd">t͡ʃ</td>
+              <td class="confluenceTd">uni007403610283</td>
+              <td class="confluenceTd">LATIN SMALL LETTER T, COMBINING DOUBLE INVERTED BREVE, LATIN SMALL LETTER ESH</td>
+              <td class="confluenceTd">optional: IPA, combined; also in AAR2R</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="charset-section" id="adobe-arabic-extended-roman">
+        <h2>Adobe Arabic Extended Romanization Module</h2>
+        <div class="stats">
+          <p>Total characters supported <strong>48</strong> : 16 essential + 32 optional</p>
+        </div>
+        <div class="table-download">
+          <p><a href="adobe-arabic-5-roman.txt">Download Adobe Arabic Extended Romanization Module table</a></p>
+        </div>
+        <table class="confluenceTable" id="adobe-arabic-extended-roman">
+          <thead>
+            <tr>
+              <th class="confluenceTh" onclick="sortTable(0, 'adobe-arabic-extended-roman')">Unicode</th>
+              <th class="confluenceTh" onclick="sortTable(1, 'adobe-arabic-extended-roman')">Character</th>
+              <th class="confluenceTh" onclick="sortTable(2, 'adobe-arabic-extended-roman')">Glyph name</th>
+              <th class="confluenceTh" onclick="sortTable(3, 'adobe-arabic-extended-roman')">Character name</th>
+              <th class="confluenceTh" onclick="sortTable(4, 'adobe-arabic-extended-roman')">Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="confluenceTd">01F4</td>
+              <td class="confluenceTd">Ǵ</td>
+              <td class="confluenceTd">uni01F4</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER G WITH ACUTE</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">01F5</td>
+              <td class="confluenceTd">ǵ</td>
+              <td class="confluenceTd">uni01F5</td>
+              <td class="confluenceTd">LATIN SMALL LETTER G WITH ACUTE</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E26</td>
+              <td class="confluenceTd">Ḧ</td>
+              <td class="confluenceTd">uni1E26</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER H WITH DIAERESIS</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E27</td>
+              <td class="confluenceTd">ḧ</td>
+              <td class="confluenceTd">uni1E27</td>
+              <td class="confluenceTd">LATIN SMALL LETTER H WITH DIAERESIS</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E3A</td>
+              <td class="confluenceTd">Ḻ</td>
+              <td class="confluenceTd">uni1E3A</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER L WITH LINE BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E3B</td>
+              <td class="confluenceTd">ḻ</td>
+              <td class="confluenceTd">uni1E3B</td>
+              <td class="confluenceTd">LATIN SMALL LETTER L WITH LINE BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E5E</td>
+              <td class="confluenceTd">Ṟ</td>
+              <td class="confluenceTd">uni1E5E</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER R WITH LINE BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E5F</td>
+              <td class="confluenceTd">ṟ</td>
+              <td class="confluenceTd">uni1E5F</td>
+              <td class="confluenceTd">LATIN SMALL LETTER R WITH LINE BELOW</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E60</td>
+              <td class="confluenceTd">Ṡ</td>
+              <td class="confluenceTd">uni1E60</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER S WITH DOT ABOVE</td>
+              <td class="confluenceTd">also in AAR4R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E61</td>
+              <td class="confluenceTd">ṡ</td>
+              <td class="confluenceTd">uni1E61</td>
+              <td class="confluenceTd">LATIN SMALL LETTER S WITH DOT ABOVE</td>
+              <td class="confluenceTd">also in AAR4R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E8C</td>
+              <td class="confluenceTd">Ẍ</td>
+              <td class="confluenceTd">uni1E8C</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER X WITH DIAERESIS</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1E8D</td>
+              <td class="confluenceTd">ẍ</td>
+              <td class="confluenceTd">uni1E8D</td>
+              <td class="confluenceTd">LATIN SMALL LETTER X WITH DIAERESIS</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1EA0</td>
+              <td class="confluenceTd">Ạ</td>
+              <td class="confluenceTd">uni1EA0</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER A WITH DOT BELOW</td>
+              <td class="confluenceTd">also in AAR4R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">1EA1</td>
+              <td class="confluenceTd">ạ</td>
+              <td class="confluenceTd">uni1EA1</td>
+              <td class="confluenceTd">LATIN SMALL LETTER A WITH DOT BELOW</td>
+              <td class="confluenceTd">also in AAR4R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0301</td>
+              <td class="confluenceTd">&#x25CC;́</td>
+              <td class="confluenceTd">acutecomb</td>
+              <td class="confluenceTd">COMBINING ACUTE ACCENT</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0308</td>
+              <td class="confluenceTd">&#x25CC;̈</td>
+              <td class="confluenceTd">uni0308</td>
+              <td class="confluenceTd">COMBINING DIAERESIS</td>
+              <td class="confluenceTd"></td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0042,0324</td>
+              <td class="confluenceTd">B̤</td>
+              <td class="confluenceTd">uni00420324</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER B, COMBINING DIAERESIS BELOW</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0044,0301</td>
+              <td class="confluenceTd">D́</td>
+              <td class="confluenceTd">uni00440301</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER D, COMBINING ACUTE ACCENT</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0044,0324</td>
+              <td class="confluenceTd">D̤</td>
+              <td class="confluenceTd">uni00440324</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER D, COMBINING DIAERESIS BELOW</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0047,0308</td>
+              <td class="confluenceTd">G̈</td>
+              <td class="confluenceTd">uni00470308</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER G, COMBINING DIAERESIS</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">004A,0308</td>
+              <td class="confluenceTd">J̈</td>
+              <td class="confluenceTd">uni004A0308</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER J, COMBINING DIAERESIS</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0052,0304</td>
+              <td class="confluenceTd">R̄</td>
+              <td class="confluenceTd">uni00520304</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER R, COMBINING MACRON</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0054,0301</td>
+              <td class="confluenceTd">T́</td>
+              <td class="confluenceTd">uni00540301</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER T, COMBINING ACUTE ACCENT</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0058,0301</td>
+              <td class="confluenceTd">X́</td>
+              <td class="confluenceTd">uni00580301</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER X, COMBINING ACUTE ACCENT</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0058,0331</td>
+              <td class="confluenceTd">X̱</td>
+              <td class="confluenceTd">uni00580331</td>
+              <td class="confluenceTd">LATIN CAPITAL LETTER X, COMBINING MACRON BELOW</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0062,0324</td>
+              <td class="confluenceTd">b̤</td>
+              <td class="confluenceTd">uni00620324</td>
+              <td class="confluenceTd">LATIN SMALL LETTER B, COMBINING DIAERESIS BELOW</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0064,0301</td>
+              <td class="confluenceTd">d́</td>
+              <td class="confluenceTd">uni00640301</td>
+              <td class="confluenceTd">LATIN SMALL LETTER D, COMBINING ACUTE ACCENT</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0064,0324</td>
+              <td class="confluenceTd">d̤</td>
+              <td class="confluenceTd">uni00640324</td>
+              <td class="confluenceTd">LATIN SMALL LETTER D, COMBINING DIAERESIS BELOW</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0067,0308</td>
+              <td class="confluenceTd">g̈</td>
+              <td class="confluenceTd">uni00670308</td>
+              <td class="confluenceTd">LATIN SMALL LETTER G, COMBINING DIAERESIS</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">006A,0308</td>
+              <td class="confluenceTd">j̈</td>
+              <td class="confluenceTd">uni006A0308</td>
+              <td class="confluenceTd">LATIN SMALL LETTER J, COMBINING DIAERESIS</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0072,0304</td>
+              <td class="confluenceTd">r̄</td>
+              <td class="confluenceTd">uni00720304</td>
+              <td class="confluenceTd">LATIN SMALL LETTER R, COMBINING MACRON</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0074,0301</td>
+              <td class="confluenceTd">t́</td>
+              <td class="confluenceTd">uni00740301</td>
+              <td class="confluenceTd">LATIN SMALL LETTER T, COMBINING ACUTE ACCENT</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0078,0301</td>
+              <td class="confluenceTd">x́</td>
+              <td class="confluenceTd">uni00780301</td>
+              <td class="confluenceTd">LATIN SMALL LETTER X, COMBINING ACUTE ACCENT</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0078,0331</td>
+              <td class="confluenceTd">x̱</td>
+              <td class="confluenceTd">uni00780331</td>
+              <td class="confluenceTd">LATIN SMALL LETTER X, COMBINING MACRON BELOW</td>
+              <td class="confluenceTd">optional: combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0167</td>
+              <td class="confluenceTd">ŧ</td>
+              <td class="confluenceTd">tbar</td>
+              <td class="confluenceTd">LATIN SMALL LETTER T WITH STROKE</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0253</td>
+              <td class="confluenceTd">ɓ</td>
+              <td class="confluenceTd">uni0253</td>
+              <td class="confluenceTd">LATIN SMALL LETTER B WITH HOOK</td>
+              <td class="confluenceTd">optional: IPA; also in AAR4R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0255</td>
+              <td class="confluenceTd">ɕ</td>
+              <td class="confluenceTd">uni0255</td>
+              <td class="confluenceTd">LATIN SMALL LETTER C WITH CURL</td>
+              <td class="confluenceTd">optional: IPA; also in AAR3R and AAR4R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0257</td>
+              <td class="confluenceTd">ɗ</td>
+              <td class="confluenceTd">uni0257</td>
+              <td class="confluenceTd">LATIN SMALL LETTER D WITH HOOK</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">025F</td>
+              <td class="confluenceTd">ɟ</td>
+              <td class="confluenceTd">uni025F</td>
+              <td class="confluenceTd">LATIN SMALL LETTER DOTLESS J WITH STROKE</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0260</td>
+              <td class="confluenceTd">ɠ</td>
+              <td class="confluenceTd">uni0260</td>
+              <td class="confluenceTd">LATIN SMALL LETTER G WITH HOOK</td>
+              <td class="confluenceTd">optional: IPA; also in AAR4R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">026F</td>
+              <td class="confluenceTd">ɯ</td>
+              <td class="confluenceTd">uni026F</td>
+              <td class="confluenceTd">LATIN SMALL LETTER TURNED M</td>
+              <td class="confluenceTd">optional: IPA; also in AAR3R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0272</td>
+              <td class="confluenceTd">ɲ</td>
+              <td class="confluenceTd">uni0272</td>
+              <td class="confluenceTd">LATIN SMALL LETTER N WITH LEFT HOOK</td>
+              <td class="confluenceTd">optional: IPA; also in AAR4R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0282</td>
+              <td class="confluenceTd">ʂ</td>
+              <td class="confluenceTd">uni0282</td>
+              <td class="confluenceTd">LATIN SMALL LETTER S WITH HOOK</td>
+              <td class="confluenceTd">optional: IPA; also in AAR4R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0284</td>
+              <td class="confluenceTd">ʄ</td>
+              <td class="confluenceTd">uni0284</td>
+              <td class="confluenceTd">LATIN SMALL LETTER DOTLESS J WITH STROKE AND HOOK</td>
+              <td class="confluenceTd">optional: IPA; also in AAR4R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">028C</td>
+              <td class="confluenceTd">ʌ</td>
+              <td class="confluenceTd">uni028C</td>
+              <td class="confluenceTd">LATIN SMALL LETTER TURNED V</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0290</td>
+              <td class="confluenceTd">ʐ</td>
+              <td class="confluenceTd">uni0290</td>
+              <td class="confluenceTd">LATIN SMALL LETTER Z WITH RETROFLEX HOOK</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0291</td>
+              <td class="confluenceTd">ʑ</td>
+              <td class="confluenceTd">uni0291</td>
+              <td class="confluenceTd">LATIN SMALL LETTER Z WITH CURL</td>
+              <td class="confluenceTd">optional: IPA; also in AAR3R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">02A3</td>
+              <td class="confluenceTd">ʣ</td>
+              <td class="confluenceTd">uni02A3</td>
+              <td class="confluenceTd">LATIN SMALL LETTER DZ DIGRAPH</td>
+              <td class="confluenceTd">optional: IPA; also in AAR4R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">02A5</td>
+              <td class="confluenceTd">ʥ</td>
+              <td class="confluenceTd">uni02A5</td>
+              <td class="confluenceTd">LATIN SMALL LETTER DZ DIGRAPH WITH CURL</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">02A6</td>
+              <td class="confluenceTd">ʦ</td>
+              <td class="confluenceTd">uni02A6</td>
+              <td class="confluenceTd">LATIN SMALL LETTER TS DIGRAPH</td>
+              <td class="confluenceTd">optional: IPA; also in AAR3R and AAR4R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">02A8</td>
+              <td class="confluenceTd">ʨ</td>
+              <td class="confluenceTd">uni02A8</td>
+              <td class="confluenceTd">LATIN SMALL LETTER TC DIGRAPH WITH CURL</td>
+              <td class="confluenceTd">optional: IPA; also in AAR3R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">032F</td>
+              <td class="confluenceTd">&#x25CC;̯</td>
+              <td class="confluenceTd">uni032F</td>
+              <td class="confluenceTd">COMBINING INVERTED BREVE BELOW</td>
+              <td class="confluenceTd">optional: IPA</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0129,032F</td>
+              <td class="confluenceTd">ĩ̯</td>
+              <td class="confluenceTd">uni0129032F</td>
+              <td class="confluenceTd">LATIN SMALL LETTER I WITH TILDE, COMBINING INVERTED BREVE BELOW</td>
+              <td class="confluenceTd">optional: IPA, combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0064,0361,007A</td>
+              <td class="confluenceTd">d͡z</td>
+              <td class="confluenceTd">uni00640361007A</td>
+              <td class="confluenceTd">LATIN SMALL LETTER D, COMBINING DOUBLE INVERTED BREVE, LATIN SMALL LETTER Z</td>
+              <td class="confluenceTd">optional: IPA, combined; also in AAR4R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0064,0361,0291</td>
+              <td class="confluenceTd">d͡ʑ</td>
+              <td class="confluenceTd">uni006403610291</td>
+              <td class="confluenceTd">LATIN SMALL LETTER D, COMBINING DOUBLE INVERTED BREVE, LATIN SMALL LETTER Z WITH CURL</td>
+              <td class="confluenceTd">optional: IPA, combined</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0074,0361,0073</td>
+              <td class="confluenceTd">t͡s</td>
+              <td class="confluenceTd">uni007403610073</td>
+              <td class="confluenceTd">LATIN SMALL LETTER T, COMBINING DOUBLE INVERTED BREVE, LATIN SMALL LETTER S</td>
+              <td class="confluenceTd">optional: IPA, combined; also in AAR4R</td>
+            </tr>
+            <tr>
+              <td class="confluenceTd">0074,0361,0255</td>
+              <td class="confluenceTd">t͡ɕ</td>
+              <td class="confluenceTd">uni007403610255</td>
+              <td class="confluenceTd">LATIN SMALL LETTER T, COMBINING DOUBLE INVERTED BREVE, LATIN SMALL LETTER C WITH CURL</td>
+              <td class="confluenceTd">optional: IPA, combined</td>
             </tr>
           </tbody>
         </table>

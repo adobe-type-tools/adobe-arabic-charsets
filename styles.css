@@ -116,6 +116,11 @@ header.fixed-header nav {
     margin-bottom: var(--spacing-sm);
 }
 
+header.fixed-header nav .nav-row {
+    display: block;
+    margin: 0.25em 0;
+}
+
 header.fixed-header nav a {
     text-decoration: none;
     color: var(--color-primary);
